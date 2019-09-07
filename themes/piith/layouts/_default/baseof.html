@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+  {{- partial "head.html" . -}}
+  <body>
+              <h1>Piith</h1>
+              <h2>{{ .Title }}</h2>
+              <div id="content">
+                {{- block "main" . }}{{- end }}
+              </div>
+              <h1>Website navigatie</h1>
+              <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                  <li
+                    class="
+                      {{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+                        active
+                      {{- end -}}
+                      {{- with .Page -}}
+                        {{if (.Params.devider) }} gap{{end}}
+                      {{- end -}}"
+                  >
+                    <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+    {{- partial "header.html" . -}}
+    {{- partial "footer.html" . -}}
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function (user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function () {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+  </body>
+</html>
