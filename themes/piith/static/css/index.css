@@ -1,37 +1,678 @@
 @charset "UTF-8";
-@import url(
-  https://fonts.googleapis.com/css?family=Open+Sans:400italic,
-  700italic,
-  400,
-  700|Open+Sans+Condensed:700
-);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Open+Sans+Condensed:700");
+@import url(http://fonts.googleapis.com/css?family=Dosis);
 
-img {
-  border: none;
-}
-.clear {
-  clear: both;
-}
-a:link {
-  color: #673e20;
-}
-a:visited {
-  color: #686868;
-}
-a:active,
-a:hover {
-  color: #8e603f;
-}
-blockquote {
-  font-size: smaller;
-}
+/**
+ * The fundamentals.
+ */
 
 html,
 body {
   margin: 0;
+
   padding: 0;
+
   width: 100%;
+
   height: 100%;
-  font: 87.5% "Open Sans", sans-serif;
+}
+
+body {
+  background: #6b9148 url("/background.jpg") no-repeat fixed center top;
+
+  text-align: center; /* For IE <7 */
+
+  font: 100% "Open Sans", sans-serif;
+}
+
+a {
+  color: #575;
+}
+
+a:hover {
+  color: #353;
+}
+
+a:visited {
+  color: #777;
+}
+
+a.anchor {
+  color: inherit;
+}
+
+dt {
+  font-weight: bold;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+table {
+  margin: 16px 0;
+}
+
+#outer {
+  margin: 0 auto;
+
+  width: 875px;
+
+  min-height: 100%;
+
+  text-align: left; /* For IE <7 */
+}
+
+#mainSpacerTop {
+  height: 20px; /* To prevent margins from collapsing */
+}
+
+#main {
+  position: relative;
+
+  padding-top: 2.5em;
+
+  background-color: #eee9d7;
+
+  box-shadow: 10px 10px 100px;
+
+  border: 1px solid #6b9148;
+
+  -moz-border-radius: 5px;
+
+  border-radius: 5px;
+}
+
+* html #main {
+  /* For IE 4-6 (using star hack, valid CSS) */
+
+  height: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+/**
+
+ * The main layout.
+
+ */
+
+#mainHead {
+  position: relative;
+
+  padding-top: 290px;
+
+  background: url("/header.png") no-repeat center top;
+
   text-align: center;
+}
+
+#mainHead img {
+  vertical-align: bottom;
+}
+
+#mainHead h1 {
+  margin: 0;
+}
+
+#mainHead h1 a {
+  position: absolute;
+
+  left: 250px;
+
+  right: 250px;
+
+  top: 60px;
+
+  bottom: 40px;
+
+  display: block;
+}
+
+#mainHead h1 a span {
+  display: none;
+
+  position: absolute;
+
+  top: -1000em;
+
+  left: -1000em;
+}
+
+#mainHead h2 {
+  margin: 0;
+
+  font: 32px Dosis, sans-serif;
+
+  color: #342118;
+
+  line-height: 1;
+}
+
+/**
+
+ * Navigation - left and right
+
+ */
+
+#mainHead .main-menu {
+  position: absolute;
+
+  top: 245px;
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+  background-color: #b71e2c;
+
+  -moz-border-radius: 10px; /* For FF <4 */
+
+  border-radius: 10px;
+}
+
+#mainHead .main-menu:hover {
+  box-shadow: 3px 3px 12px #777;
+}
+
+#mainHead nav a {
+  display: block;
+
+  padding: 0 15px;
+
+  line-height: 30px;
+
+  font-size: 18px;
+
+  text-decoration: none;
+
+  color: #eee9d7;
+}
+
+#mainHead .main-menu-left {
+  right: 50%;
+
+  margin-right: 220px;
+}
+
+#mainHead .main-menu-right {
+  left: 50%;
+
+  margin-left: 220px;
+}
+
+/**
+
+ * Navigation - top
+
+ */
+
+#main .top-menu {
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  margin: 0;
+
+  padding: 0 1em;
+
+  list-style: none;
+
+  font-size: 0.8em;
+
+  line-height: 2;
+
+  text-align: center;
+
+  color: #575;
+}
+
+#main .top-menu li {
+  display: inline-block;
+
+  margin: 0 2px;
+
+  background-color: #a0d178;
+
+  -moz-border-radius: 10px;
+
+  border-radius: 5px;
+
+  line-height: 20px;
+}
+
+#main .top-menu li a {
+  color: #327030;
+
+  display: inline-block;
+
+  padding: 0 10px;
+
+  text-decoration: none;
+}
+
+#main .top-menu li:hover {
+  box-shadow: 2px 2px 8px #aaa;
+}
+
+/**
+
+ * Newsletter sign up widget.
+
+ */
+
+.newsletter-widget {
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  width: 200px;
+
+  font-size: 0.8em;
+
+  border-radius: 10px;
+
+  padding: 1em;
+
+  box-shadow: -3px 3px 10px 0 #a0d178;
+
+  color: #342118;
+}
+
+.newsletter-widget h1 {
+  font-size: 1em;
+
+  font-weight: normal;
+
+  margin: 0 0 0.4em 0;
+}
+
+.newsletter-widget .mc-field-group {
+  margin: 0.4em 0;
+}
+
+.newsletter-widget label {
+  display: none;
+}
+
+.newsletter-widget input {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  background: transparent;
+
+  border: none;
+
+  border-radius: 5px;
+
+  padding: 0.1em 0.5em;
+
+  box-shadow: -2px 2px 3px 0 #a0d178;
+
+  color: #342118;
+}
+
+.newsletter-widget input:active {
+  box-shadow: -2px 2px 3px 0 #a0d178;
+}
+
+.newsletter-widget input[type="submit"] {
+  width: initial;
+
+  border: 1px solid #a0d178;
+}
+
+/**
+
+ * Content
+
+ */
+
+#mainContent {
+  padding: 50px 4em;
+
+  overflow: hidden;
+}
+
+figure {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 0 4px;
+  margin: 0.5em;
+  border-radius: 3px;
+}
+figcaption {
+  color: #757575;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+
+.align-center,
+img[src*="#center"] {
+  display: block;
+  margin: 15px auto;
+}
+.align-left,
+img[src*="#left"] {
+  float: left;
+  margin: 15px 15px 15px 0;
+}
+.align-right,
+img[src*="#right"] {
+  float: right;
+  margin: 15px 0 15px 15px;
+}
+
+#mainContent h1 {
+  margin: 0 0 0.67em 0;
+
+  font-weight: normal;
+}
+
+#mainContent h2 {
+  margin: 1em 0 -0.67em 0;
+
+  font-weight: bold;
+
+  font-size: 1.2em;
+}
+
+#mainContent h3 {
+  margin: 1em 0 -0.67em 0;
+
+  font-weight: bold;
+
+  font-size: 1em;
+}
+
+#mainContent h1 a {
+  color: inherit;
+}
+
+#mainContent blockquote {
+  border-left: 3px solid #797;
+
+  font-size: smaller;
+
+  font-style: italic;
+
+  margin-left: 2em;
+
+  padding: 0.5em 1em;
+}
+
+#mainContent blockquote > p:first-child {
+  margin-top: 0;
+}
+
+#mainContent blockquote > p:last-child {
+  margin-bottom: 0;
+}
+
+#mainContent .intro {
+  margin-bottom: 4em;
+}
+
+/**
+
+ * Content navigation
+
+ */
+
+#mainContent nav.sub-menu {
+  float: left;
+
+  margin: 0 3em 1.2em 0;
+
+  padding: 0;
+
+  text-align: right;
+}
+
+#mainContent nav.sub-menu ul {
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+#mainContent nav.sub-menu ul#menu-links-1 > li > a {
+  display: none;
+}
+
+#mainContent nav.sub-menu a {
+  display: block;
+}
+
+#mainContent nav a {
+  line-height: 1.5em;
+
+  font-size: 1.2em;
+
+  letter-spacing: 0.1em;
+
+  text-decoration: none;
+
+  color: #b71e2c;
+}
+
+#mainContent nav a:hover {
+  text-decoration: underline;
+}
+
+/**
+
+ * Facebook like button
+
+ */
+
+.social {
+  position: absolute;
+
+  top: 2px;
+
+  left: 5px;
+}
+
+/**
+
+ * Content table
+
+ */
+
+.schedule {
+  width: 100%;
+}
+
+.schedule caption {
+  margin: 1em 0;
+
+  font-size: 1.1em;
+
+  text-align: left;
+}
+
+.schedule td,
+.schedule th {
+  padding: 0.1em 0.5em;
+
+  vertical-align: top;
+}
+
+.schedule time {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 0.9em;
+}
+
+.schedule .day {
+  text-align: right;
+}
+
+/**
+
+ * An overview of what there is to do.
+
+ */
+
+#mainContent .what-header,
+#mainContent .who-header {
+  line-height: 1.5em;
+
+  font-size: 1.2em;
+
+  font-weight: normal;
+
+  letter-spacing: 0.1em;
+
+  text-decoration: none;
+
+  color: #b71e2c;
+}
+
+#mainContent .who-header {
+  margin: 0;
+}
+
+.who-logo {
+  clear: both;
+
+  margin: 1em 0 0 0;
+}
+
+.who-list {
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+.who-list li {
+  display: inline-block;
+
+  color: #342118;
+
+  white-space: nowrap;
+}
+
+.who-list li:before {
+  content: "•";
+
+  padding: 0 0.5em;
+}
+
+/**
+
+ * An overview of the people and their skills.
+
+ */
+
+ul.people {
+  list-style-type: none;
+
+  margin-bottom: 2.5em;
+}
+
+ul.people > li > a {
+  line-height: 1.5em;
+
+  font-size: 1.2em;
+
+  letter-spacing: 0.1em;
+
+  text-decoration: none;
+
+  color: #b71e2c;
+}
+
+ul.people ul li {
+  display: inline;
+
+  color: #342118;
+
+  white-space: nowrap;
+}
+
+ul.people ul li:before {
+  content: "• ";
+}
+
+/**
+
+ * A page of one person with specific style.
+
+ */
+
+#mainContent h2.company {
+  margin: -1em 0 1em 0;
+
+  line-height: 1;
+
+  font-weight: normal;
+
+  font-size: 1.3em;
+}
+
+#mainContent h2.company a {
+  color: #575;
+}
+
+#mainContent h2.company a:hover {
+  color: #353;
+}
+
+/**
+
+ * Footer
+
+ */
+
+#mainFooter {
+  position: relative;
+
+  padding: 20px 0 40px;
+
+  text-align: center;
+
+  font-size: 0.8em;
+
+  color: #342118;
+}
+
+#mainFooter p {
+  margin: 0;
+
+  line-height: 20px;
+}
+
+#mainFooter a:link,
+#mainFooter a:hover,
+#mainFooter a:active,
+#mainFooter a:visited {
+  color: inherit;
+}
+
+#mainFooter .copyright {
+  position: absolute;
+
+  width: 875px;
+
+  top: -20px;
 }
