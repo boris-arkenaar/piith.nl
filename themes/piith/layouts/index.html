@@ -1,5 +1,18 @@
 {{ define "main" }}
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    {{ .Content }}
-  </article>
+<article
+  class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"
+>
+  {{ .Content }}
+</article>
+<div>
+  <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
+  {{ with .Site.GetPage "/articles" }}
+  {{ $paginator := (.Paginator 3) }}
+  {{ range $paginator.Pages }}
+  {{ .Render "summary"}}
+  {{ end }}
+  <!-- Hugo's default pagination template. -->
+  {{ template "_internal/pagination.html" . }}
+  {{ end }}
+</div>
 {{ end }}

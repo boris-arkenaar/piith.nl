@@ -1,0 +1,18 @@
+<article>
+  <!-- this <div> includes the title summary -->
+  <div>
+    <h1>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h1>
+    {{ .Summary }}
+  </div>
+  {{ if .Truncated }}
+  <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+  <div>
+    <a href="{{ .RelPermalink }}">Verder lezen →</a>
+  </div>
+  {{ end }}
+  <footer class="entry-meta">
+    {{ .Date.Format "02-01-2006" }}
+  </footer>
+</article>
