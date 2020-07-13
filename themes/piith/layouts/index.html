@@ -11,6 +11,22 @@
   {{ range $paginator.Pages }}
   {{ .Render "summary"}}
   {{ end }}
+
+
+  <div class="row pt-3 pb-3">
+    <div class="col-12">
+      <nav>
+        <ul class="pagination">
+        {{ range $paginator.Pagers }}
+          <li class="page-item {{ if eq $paginator.PageNumber .PageNumber }}active{{ end }}">
+            <a class="page-link" href="{{ .URL }}">{{.PageNumber}}</a>
+          </li>
+        {{ end }}
+        </ul>
+      </nav>    
+    </div>
+  </div>
+  
   <!-- Hugo's default pagination template. -->
   {{ template "_internal/pagination.html" . }}
   {{ end }}
