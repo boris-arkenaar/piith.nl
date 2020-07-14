@@ -1,7 +1,7 @@
 ---
 title: Article Een
 date: 2019-09-05T16:03:17+02:00
-url: /article1/
+alias: /article1/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis, urna lacinia sollicitudin commodo, est nulla tincidunt dui, at feugiat ipsum ipsum bibendum nunc. Integer iaculis dapibus diam quis volutpat. Duis eu nulla et felis varius maximus interdum eu enim. Ut a semper enim. Etiam blandit gravida lacinia. Pellentesque eu tristique felis. Suspendisse egestas quis quam sed vulputate. Aenean hendrerit vel justo ac scelerisque. Donec vel scelerisque orci. Donec id lacinia turpis. Curabitur ultricies purus vel eleifend efficitur. Aliquam dictum sem cursus viverra sagittis. Ut vel quam faucibus, tincidunt massa nec, sagittis quam. Suspendisse nec sapien urna.

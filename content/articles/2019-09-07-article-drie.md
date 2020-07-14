@@ -1,7 +1,7 @@
 ---
 title: Article Drie
 date: 2019-09-07T16:03:17+02:00
-url: /article3/
+alias: /article3/
 ---
 
 Quisque eu libero in massa dictum varius eu quis nisl. Quisque sodales ante non gravida vestibulum. Mauris nulla est, rutrum sit amet tincidunt ac, volutpat eget libero. Maecenas quam eros, auctor vitae elementum sed, rutrum nec ligula. Maecenas vel erat tellus. Phasellus et sapien aliquam nisi elementum imperdiet quis at quam. Quisque eget viverra lacus. Integer porttitor justo quis nibh malesuada, eget lobortis dui vehicula. Suspendisse euismod dictum pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

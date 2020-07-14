@@ -1,7 +1,7 @@
 ---
 title: Article Twee
 date: 2019-09-06T16:03:17+02:00
-url: /article2/
+alias: /article2/
 ---
 
 Nunc hendrerit elit ac eros aliquet, nec ultrices ante ornare. Nunc tempor eleifend dictum. Fusce accumsan nulla ac dolor laoreet lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu sapien bibendum, suscipit mi quis, laoreet velit. Quisque mattis libero ac maximus facilisis. Phasellus ligula dui, placerat at ipsum eget, condimentum congue odio. Sed venenatis turpis in risus pretium pretium. Donec est urna, elementum sit amet elit sit amet, lobortis suscipit sem. Donec ligula sapien, tincidunt id malesuada non, accumsan tincidunt libero.
