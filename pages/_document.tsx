@@ -8,8 +8,9 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script>
-            {`
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", function (user) {
     if (!user) {
@@ -18,9 +19,9 @@ if (window.netlifyIdentity) {
       });
     }
   });
-}
-            `}
-          </script>
+}`,
+            }}
+          />
         </body>
       </Html>
     );
