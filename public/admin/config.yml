@@ -1,4 +1,5 @@
 backend:
+  branch: next
   name: git-gateway
 collections:
   - name: "page" # Used in routes, e.g., /admin/collections/blog
@@ -28,5 +29,5 @@ collections:
       - {label: "Alias", name: "alias", widget: "string", default: "/{{slug}}/"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-media_folder: "static/uploads"
+media_folder: "public/uploads"
 public_folder: "/uploads"
