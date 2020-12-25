@@ -7,36 +7,9 @@ import remark from "remark";
 import html from "remark-html";
 
 import Layout from "../components/layout";
+import { getPostsData } from "../lib/api";
 
 const home = join(process.cwd(), "content/home.md");
-const postsDirectory = join(process.cwd(), "content/articles");
-
-const getPostData = async (fileName) => {
-  const id = fileName.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, fileName);
-  const rawContent = fs.readFileSync(fullPath, "utf8");
-  const frontMatter = matter(rawContent);
-  const splitContent = frontMatter.content.split("<!--more-->");
-  const introContent = splitContent[0];
-  const hasMore = splitContent.length > 1;
-
-  const processedContent = await remark().use(html).process(introContent);
-  const content = processedContent.toString();
-
-  return {
-    content,
-    date: frontMatter.data.date.toISOString(),
-    hasMore,
-    id,
-    title: frontMatter.data.title,
-  };
-};
-
-const getPostsData = async () => {
-  const fileNames = fs.readdirSync(postsDirectory);
-
-  return Promise.all(fileNames.slice(-3).reverse().map(getPostData));
-};
 
 export const getStaticProps: GetStaticProps = async () => {
   const rawContent = fs.readFileSync(home, "utf8");
@@ -50,7 +23,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       content: htmlContent,
-      posts: await getPostsData(),
+      posts: await getPostsData(1),
       title: frontMatter.data.title,
     },
   };
