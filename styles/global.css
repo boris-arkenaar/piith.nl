@@ -545,7 +545,8 @@ footer.entry-meta a:hover {
 }
 
 .pagination {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .pagination .page-numbers.current {
   line-height: 1.5em;

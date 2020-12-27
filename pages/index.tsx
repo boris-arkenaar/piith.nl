@@ -7,22 +7,22 @@ import remark from "remark";
 import html from "remark-html";
 
 import Layout from "../components/layout";
-import { getPostsData } from "../lib/api";
+import PostsPagination from "../components/posts-pagination";
+import { getPostsData, getPostsPages } from "../lib/api";
 
 const home = join(process.cwd(), "content/home.md");
 
 export const getStaticProps: GetStaticProps = async () => {
   const rawContent = fs.readFileSync(home, "utf8");
   const frontMatter = matter(rawContent);
-
   const processedContent = await remark()
     .use(html)
     .process(frontMatter.content);
-  const htmlContent = processedContent.toString();
 
   return {
     props: {
-      content: htmlContent,
+      content: processedContent.toString(),
+      pageCount: (await getPostsPages()).length,
       posts: await getPostsData(1),
       title: frontMatter.data.title,
     },
@@ -31,11 +31,12 @@ export const getStaticProps: GetStaticProps = async () => {
 
 type HomeProps = {
   content: string;
+  pageCount: number;
   posts: any;
   title: string;
 };
 
-const Home: React.FC<HomeProps> = ({ content, posts, title }) => (
+const Home: React.FC<HomeProps> = ({ content, pageCount, posts, title }) => (
   <Layout>
     <Head>
       <title>{title}</title>
@@ -59,6 +60,7 @@ const Home: React.FC<HomeProps> = ({ content, posts, title }) => (
         <footer className="entry-meta">{post.date}</footer>
       </article>
     ))}
+    <PostsPagination pageCount={pageCount} />
   </Layout>
 );
 
