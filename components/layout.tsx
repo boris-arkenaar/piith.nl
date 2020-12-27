@@ -138,7 +138,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
       </div>
     </div>
     <div id="mainFooter">
-      <p className="copyright">© 2013–2019 Piith</p>
+      <p className="copyright">© 2013–2021 Piith</p>
       <p className="author">
         Deze website is gemaakt door <a href="http://apptoad.nl">appTOAD</a>.
       </p>
