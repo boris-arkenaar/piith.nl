@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type LayoutProps = {
   children: React.ReactNode;
 };
@@ -9,30 +11,30 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
       <div id="mainHead">
         <header>
           <h1>
-            <a href="http://piith.nl/" rel="home">
-              <span>Piith</span>
-            </a>
+            <Link href="/">
+              <a rel="home">
+                <span>Piith</span>
+              </a>
+            </Link>
           </h1>
           <h2>Professionele Integratieve Interactieve Therapeuten</h2>
         </header>
         <nav>
           <div className="menu-links-container">
             <ul id="menu-links" className="main-menu main-menu-left">
-              <li
-                id="menu-item-2382"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2382"
-              >
-                <a href="http://piith.nl/wie-doet-wat/">Wat &amp; Wie</a>
+              <li>
+                <Link href="/wie-doet-wat/">
+                  <a>Wat &amp; Wie</a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="menu-rechts-container">
             <ul id="menu-rechts" className="main-menu main-menu-right">
-              <li
-                id="menu-item-10"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"
-              >
-                <a href="http://piith.nl/piith/">Over Piith</a>
+              <li>
+                <Link href="/piith/">
+                  <a>Over Piith</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -42,44 +44,32 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
       <nav>
         <div className="menu-top-container">
           <ul id="menu-top" className="top-menu">
-            <li
-              id="menu-item-599"
-              className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-599"
-            >
-              <a href="http://piith.nl/" aria-current="page">
-                home
-              </a>
+            <li>
+              <Link href="/lesrooster/">
+                <a>lesrooster</a>
+              </Link>
             </li>
-            <li
-              id="menu-item-2044"
-              className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2044"
-            >
-              <a href="http://piith.nl/lesrooster/">lesrooster</a>
+            <li>
+              <Link href="/recensies/">
+                <a>recensies</a>
+              </Link>
             </li>
-            <li
-              id="menu-item-2257"
-              className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2257"
-            >
-              <a href="http://piith.nl/recensies/">recensies</a>
+            <li>
+              <Link href="/contact/">
+                <a>contact</a>
+              </Link>
             </li>
-            <li
-              id="menu-item-38"
-              className="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"
-            >
-              <a href="http://piith.nl/contact/">contact</a>
-            </li>
-            <li
-              id="menu-item-1992"
-              className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1992"
-            >
-              <a href="http://piith.nl/privacyverklaring/">privacyverklaring</a>
+            <li>
+              <Link href="/privacyverklaring/">
+                <a>privacyverklaring</a>
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
       <div id="mc_embed_signup" className="newsletter-widget">
         <form
-          action="http://piith.us7.list-manage1.com/subscribe/post?u=8f3a33283f070bfde53fa0d38&amp;id=1c635e357f"
+          action="https://piith.us7.list-manage1.com/subscribe/post?u=8f3a33283f070bfde53fa0d38&amp;id=1c635e357f"
           method="post"
           id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"
