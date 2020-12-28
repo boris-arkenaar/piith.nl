@@ -5,20 +5,23 @@ import PostsPagination from "../../components/posts-pagination";
 import { getPostsData, getPostsPages } from "../../lib/api";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const pageNumber = parseInt(
+    Array.isArray(params.pageNumber) ? params.pageNumber[0] : params.pageNumber
+  );
   return {
     props: {
-      currentPage: parseInt(params.page.toString(), 10),
-      pageCount: (await getPostsPages()).length,
-      posts: await getPostsData(params.page),
+      currentPage: pageNumber,
+      pageCount: getPostsPages().length,
+      posts: await getPostsData(pageNumber),
     },
   };
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: (await getPostsPages()).map((page) => ({
+    paths: getPostsPages().map((page) => ({
       params: {
-        page,
+        pageNumber: page,
       },
     })),
     fallback: false,

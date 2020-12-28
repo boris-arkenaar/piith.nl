@@ -22,7 +22,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       content: processedContent.toString(),
-      pageCount: (await getPostsPages()).length,
+      pageCount: getPostsPages().length,
       posts: await getPostsData(1),
       title: frontMatter.data.title,
     },
