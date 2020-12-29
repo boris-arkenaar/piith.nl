@@ -16,9 +16,9 @@ Piith is een Holistische groepspraktijk en Yogacentrum.
 
 Piith is voor 1-op-1 contact en kleine groepen, voor iedereen van kleuter tot senior, kleinschalig, dichtbij, betaalbaar, toegankelijk, laagdrempelig.
 
-Wil je weten wie bij Piith werken en wat ze doen kijk dan op [Wie & Wat](http://piith.nl/wie-doet-wat/).
+Wil je weten wie bij Piith werken en wat ze doen kijk dan op [Wie & Wat](/wie-doet-wat/).
 
-<br style="clear: both;" />
+<br class="clear" />
 
 <img src="http://piith.nl/wp-content/uploads/2015/09/Shiatsu_het_Gooi_3251_13-269x180.jpg#left" alt="Ingang" width="269" height="180" />
 
@@ -32,4 +32,4 @@ Piith is ook creatief en muzikaal en biedt graag ruimte aan startende ondernemer
   <figcaption>Foto's Noor Ysbrandy</figcaption>
 </figure>
 
-<br style="clear: both;" />
+<br class="clear" />

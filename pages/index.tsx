@@ -2,19 +2,27 @@ import fs from "fs";
 import matter from "gray-matter";
 import { GetStaticProps } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import { join } from "path";
-import { useMemo } from "react";
-import markdown from "remark-parse";
-import html from "remark-html";
+import { createElement, useMemo } from "react";
+import rehypeRaw from "rehype-raw";
+import rehypeReact from "rehype-react";
+import rehypeSanitize from "rehype-sanitize";
+import remark from "remark-parse";
+import remarkRehype from "remark-rehype";
 import unified from "unified";
 
 import Layout from "../components/layout";
 import PostsPagination from "../components/posts-pagination";
 import { getPostsData, getPostsPages } from "../lib/api";
 
-const home = join(process.cwd(), "content/home.md");
-
 export const getStaticProps: GetStaticProps = async () => {
+  const home = join(process.cwd(), "content/home.md");
+  const merge = require("deepmerge");
+  const githubSchema = require("hast-util-sanitize/lib/github");
+  const sanitizeSchema = merge(githubSchema, {
+    attributes: { "*": ["className"] },
+  });
   const rawContent = fs.readFileSync(home, "utf8");
   const frontMatter = matter(rawContent);
 
@@ -23,26 +31,48 @@ export const getStaticProps: GetStaticProps = async () => {
       content: frontMatter.content,
       pageCount: getPostsPages().length,
       posts: await getPostsData(1),
+      sanitizeSchema,
       title: frontMatter.data.title,
     },
   };
 };
 
+const MarkdownLink = ({ children, href, ...props }) => (
+  <Link href={href}>
+    <a {...props}>{children}</a>
+  </Link>
+);
+
 type HomeProps = {
   content: string;
   pageCount: number;
   posts: any;
+  sanitizeSchema: any;
   title: string;
 };
 
-const Home: React.FC<HomeProps> = ({ content, pageCount, posts, title }) => {
+const Home: React.FC<HomeProps> = ({
+  content,
+  pageCount,
+  posts,
+  sanitizeSchema,
+  title,
+}) => {
   const processedContent = useMemo(() => {
     const frontMatter = matter(content);
     const matterContent = unified()
-      .use(markdown)
-      .use(html)
+      .use(remark)
+      .use(remarkRehype, { allowDangerousHtml: true })
+      .use(rehypeRaw)
+      .use(rehypeReact, {
+        createElement,
+        components: {
+          a: MarkdownLink,
+        },
+      })
+      .use(rehypeSanitize, sanitizeSchema)
       .processSync(frontMatter.content);
-    return matterContent.toString();
+    return matterContent.result;
   }, []);
 
   return (
@@ -52,7 +82,7 @@ const Home: React.FC<HomeProps> = ({ content, pageCount, posts, title }) => {
         <link rel="icon" type="image/png" href="/icon.png" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
-      <div dangerouslySetInnerHTML={{ __html: processedContent }} />
+      {processedContent}
       {posts.map((post) => (
         <article key={post.id}>
           <header>
