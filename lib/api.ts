@@ -21,11 +21,8 @@ const getPostData = async (fileName: string): Promise<PostData> => {
   const fullPath = join(postsDirectory, fileName);
   const rawContent = fs.readFileSync(fullPath, "utf8");
   const frontMatter = matter(rawContent);
-  const splitContent = frontMatter.content.split("<!--more-->");
-  const introContent = splitContent[0];
-  const hasMore = splitContent.length > 1;
-  const processedContent = await remark().use(html).process(introContent);
-  const content = processedContent.toString();
+  const [content, ...more] = frontMatter.content.split("<!--more-->");
+  const hasMore = more.length > 0;
   return {
     content,
     date: frontMatter.data.date.toISOString(),

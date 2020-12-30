@@ -2,19 +2,14 @@ import fs from "fs";
 import matter from "gray-matter";
 import { GetStaticProps } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import { join } from "path";
-import { createElement, useMemo } from "react";
-import rehypeRaw from "rehype-raw";
-import rehypeReact from "rehype-react";
-import rehypeSanitize from "rehype-sanitize";
-import remark from "remark-parse";
-import remarkRehype from "remark-rehype";
-import unified from "unified";
+import { useMemo } from "react";
 
+import ArticleSummary from "../components/article-summary";
 import Layout from "../components/layout";
 import PostsPagination from "../components/posts-pagination";
 import { getPostsData, getPostsPages } from "../lib/api";
+import { processMarkdown } from "../lib/md";
 
 export const getStaticProps: GetStaticProps = async () => {
   const home = join(process.cwd(), "content/home.md");
@@ -37,12 +32,6 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const MarkdownLink = ({ children, href, ...props }) => (
-  <Link href={href}>
-    <a {...props}>{children}</a>
-  </Link>
-);
-
 type HomeProps = {
   content: string;
   pageCount: number;
@@ -58,22 +47,18 @@ const Home: React.FC<HomeProps> = ({
   sanitizeSchema,
   title,
 }) => {
-  const processedContent = useMemo(() => {
-    const frontMatter = matter(content);
-    const matterContent = unified()
-      .use(remark)
-      .use(remarkRehype, { allowDangerousHtml: true })
-      .use(rehypeRaw)
-      .use(rehypeReact, {
-        createElement,
-        components: {
-          a: MarkdownLink,
-        },
-      })
-      .use(rehypeSanitize, sanitizeSchema)
-      .processSync(frontMatter.content);
-    return matterContent.result;
-  }, []);
+  const processedContent = useMemo(
+    () => processMarkdown(content, sanitizeSchema),
+    []
+  );
+  const processedPosts = useMemo(
+    () =>
+      posts.map((post) => ({
+        ...post,
+        content: processMarkdown(post.content, sanitizeSchema),
+      })),
+    []
+  );
 
   return (
     <Layout>
@@ -83,21 +68,8 @@ const Home: React.FC<HomeProps> = ({
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
       {processedContent}
-      {posts.map((post) => (
-        <article key={post.id}>
-          <header>
-            <h1>
-              <a href={`/${post.id}`}>{post.title}</a>
-            </h1>
-          </header>
-          <div dangerouslySetInnerHTML={{ __html: post.content }} />
-          {post.hasMore && (
-            <a className="more-link" href={`/${post.id}#lees-verder`}>
-              Lees verder →
-            </a>
-          )}
-          <footer className="entry-meta">{post.date}</footer>
-        </article>
+      {processedPosts.map((post) => (
+        <ArticleSummary article={post} key={post.id} />
       ))}
       <PostsPagination pageCount={pageCount} />
     </Layout>
