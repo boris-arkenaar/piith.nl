@@ -5,7 +5,7 @@ menu:
     weight: 300
 ---
 
-<a href="/lesrooster.md">lesrooster</a>
+[lesrooster](/lesrooster)
 
 <p>Piith - zeg maar pit.</p>
 <p style="font-size: larger;">Eigentijds huis, groepspraktijk voor complementaire geneeskunde, therapie, coaching, lessen, workshops.</p>
