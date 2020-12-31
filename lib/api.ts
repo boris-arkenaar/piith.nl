@@ -17,7 +17,7 @@ type PostData = {
 };
 
 const getPostData = async (fileName: string): Promise<PostData> => {
-  const id = fileName.replace(/\.md$/, "");
+  const id = getArticleIdFromFileName(fileName);
   const fullPath = join(postsDirectory, fileName);
   const rawContent = fs.readFileSync(fullPath, "utf8");
   const frontMatter = matter(rawContent);
@@ -47,9 +47,30 @@ export const getPostsPages = (): string[] => {
   return new Array(pageCount).fill(0).map((_, i) => (i + 1).toString());
 };
 
+const getPageIdFromFileName = (fileName: string): string =>
+  fileName.replace(/\.md$/, "");
+const getArticleIdFromFileName = (fileName: string): string =>
+  fileName.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.md$/, "");
+
 export const getPageNames = (): string[] => {
-  return fs.readdirSync(pagesDirectory);
-  // return [...fs.readdirSync(postsDirectory), ...fs.readdirSync(pagesDirectory)];
+  return [
+    ...fs.readdirSync(postsDirectory).map(getArticleIdFromFileName),
+    ...fs.readdirSync(pagesDirectory).map(getPageIdFromFileName),
+  ];
+};
+
+const getArticleContent = (id: string): string | undefined => {
+  const fileName = fs
+    .readdirSync(postsDirectory)
+    .find((fileName) => getArticleIdFromFileName(fileName) === id);
+  return fileName && fs.readFileSync(join(postsDirectory, fileName), "utf8");
+};
+
+const getPageContent = (id: string): string | undefined => {
+  const fileName = fs
+    .readdirSync(pagesDirectory)
+    .find((fileName) => getPageIdFromFileName(fileName) === id);
+  return fileName && fs.readFileSync(join(pagesDirectory, fileName), "utf8");
 };
 
 type Page = {
@@ -57,9 +78,8 @@ type Page = {
   title: string;
 };
 
-export const getPage = async (fileName: string): Promise<Page> => {
-  const fullPath = join(pagesDirectory, fileName);
-  const rawContent = fs.readFileSync(fullPath, "utf8");
+export const getPage = async (id: string): Promise<Page> => {
+  const rawContent = getPageContent(id) || getArticleContent(id);
   const frontMatter = matter(rawContent);
   const processedContent = await remark()
     .use(html)

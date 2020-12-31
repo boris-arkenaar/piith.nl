@@ -25,7 +25,7 @@ Wil je weten wie bij Piith werken en wat ze doen kijk dan op [Wie & Wat](/wie-do
 \
 Piith is ook creatief en muzikaal en biedt graag ruimte aan startende ondernemers. Wil je moeiteloos en plezierig werken vanuit interesse en passie, met inspirerende collega's, dan ben je van harte welkom.
 
-<a href="http://piith.nl/piith/">Meer over Piith →</a>
+[Meer over Piith →](/piith/)
 
 <figure class="align-right">
   <p><img src="http://piith.nl/wp-content/uploads/2013/02/DSC4420bewerkt-254x180.jpg" alt="" width="254" height="180" /> <img src="http://piith.nl/wp-content/uploads/2013/02/DSC5128-e1369332980229-200x300.jpg" alt="" width="120" height="180" /> <img src="http://piith.nl/wp-content/uploads/2013/02/DSC4461bewerkt-300x212.jpg" alt="Groepsruimte" width="254" height="180" /></p>
