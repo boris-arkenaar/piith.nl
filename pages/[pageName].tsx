@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import ArticleNavigation from "../components/article-navigation";
 import Layout from "../components/layout";
 import { getPage, getPageNames, PageData } from "../lib/api";
+import { formatDate } from "../lib/date";
 import { processMarkdown } from "../lib/md";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -53,7 +54,7 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
               <h1>{page.title}</h1>
             </header>
             {processedContent}
-            <footer className="entry-meta">{page.date}</footer>
+            <footer className="entry-meta">{formatDate(page.date)}</footer>
           </article>
           <ArticleNavigation
             next={page.nextArticle}

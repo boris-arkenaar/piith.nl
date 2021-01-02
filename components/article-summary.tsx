@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { formatDate } from "../lib/date";
+
 type ArticleSummaryProps = {
   article: any;
 };
@@ -20,7 +22,7 @@ const ArticleSummary: React.FC<ArticleSummaryProps> = ({ article }) => {
           <a className="more-link">Lees verder →</a>
         </Link>
       )}
-      <footer className="entry-meta">{article.date}</footer>
+      <footer className="entry-meta">{formatDate(article.date)}</footer>
     </article>
   );
 };
