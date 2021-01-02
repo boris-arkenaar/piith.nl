@@ -1,8 +1,9 @@
 import { GetStaticProps, GetStaticPaths } from "next";
 import { useMemo } from "react";
 
+import ArticleNavigation from "../components/article-navigation";
 import Layout from "../components/layout";
-import { getPage, getPageNames } from "../lib/api";
+import { getPage, getPageNames, PageData } from "../lib/api";
 import { processMarkdown } from "../lib/md";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -13,7 +14,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   });
   return {
     props: {
-      page: await getPage(
+      page: getPage(
         Array.isArray(params.pageName) ? params.pageName[0] : params.pageName
       ),
       sanitizeSchema,
@@ -33,7 +34,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 type PageProps = {
-  page: any;
+  page: PageData;
   sanitizeSchema: any;
 };
 
@@ -46,13 +47,19 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
   return (
     <Layout>
       {page.isArticle ? (
-        <article>
-          <header>
-            <h1>{page.title}</h1>
-          </header>
-          {processedContent}
-          <footer className="entry-meta">{page.date}</footer>
-        </article>
+        <>
+          <article>
+            <header>
+              <h1>{page.title}</h1>
+            </header>
+            {processedContent}
+            <footer className="entry-meta">{page.date}</footer>
+          </article>
+          <ArticleNavigation
+            next={page.nextArticle}
+            previous={page.previousArticle}
+          />
+        </>
       ) : (
         <article>
           <header>

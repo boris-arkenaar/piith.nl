@@ -12,12 +12,14 @@ const getArticleIdFromFileName = (fileName: string): string =>
 const getPageIdFromFileName = (fileName: string): string =>
   fileName.replace(/\.md$/, "");
 
-type PageData = {
+export type PageData = {
   content: string;
   date?: string;
   hasMore?: boolean;
   id: string;
   isArticle: boolean;
+  nextArticle?: PageData;
+  previousArticle?: PageData;
   title: string;
 };
 
@@ -33,14 +35,37 @@ const getPageData = (fileName: string): PageData => {
   };
 };
 
-const getArticleData = (fileName: string): PageData => {
+const getSurroundingArticles = (
+  currentFileName: string
+): { nextArticle: PageData; previousArticle: PageData } => {
+  const fileNames = fs.readdirSync(postsDirectory);
+  const currentIndex = fileNames.indexOf(currentFileName);
+  const nextFileName =
+    currentIndex + 1 < fileNames.length && fileNames[currentIndex + 1];
+  const previousFileName = currentIndex - 1 >= 0 && fileNames[currentIndex - 1];
+  const nextArticle = nextFileName && getArticleData(nextFileName);
+  const previousArticle = previousFileName && getArticleData(previousFileName);
+  return {
+    nextArticle,
+    previousArticle,
+  };
+};
+
+const getArticleData = (
+  fileName: string,
+  includeSurroundingArticles = false
+): PageData => {
   const id = getArticleIdFromFileName(fileName);
   const fullPath = join(postsDirectory, fileName);
   const rawContent = fs.readFileSync(fullPath, "utf8");
   const frontMatter = matter(rawContent);
   const [content, ...more] = frontMatter.content.split("<!--more-->");
   const hasMore = more.length > 0;
+  const surroundingArticles = includeSurroundingArticles
+    ? getSurroundingArticles(fileName)
+    : {};
   return {
+    ...surroundingArticles,
     content,
     date: frontMatter.data.date.toISOString(),
     hasMore,
@@ -54,7 +79,10 @@ export const getPostsData = (page: number): PageData[] => {
   const fileNames = fs.readdirSync(postsDirectory);
   const end = page * postsPerPage;
   const start = end - postsPerPage;
-  return fileNames.reverse().slice(start, end).map(getArticleData);
+  return fileNames
+    .reverse()
+    .slice(start, end)
+    .map((fileName) => getArticleData(fileName));
 };
 
 export const getPostsPages = (): string[] => {
@@ -84,5 +112,5 @@ export const getPage = (id: string): PageData => {
   const pageFileName = getPageFileNameById(id);
   const isArticle = !pageFileName;
   const fileName = pageFileName || getArticleFileNameById(id);
-  return isArticle ? getArticleData(fileName) : getPageData(fileName);
+  return isArticle ? getArticleData(fileName, true) : getPageData(fileName);
 };
