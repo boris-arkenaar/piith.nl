@@ -1,8 +1,7 @@
 ---
 title: Piith
-menu:
-  main:
-    weight: 300
+label: Over Piith
+showInRightMenu: true
 ---
 
 [lesrooster](/lesrooster)

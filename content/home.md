@@ -1,8 +1,5 @@
 ---
 title: Piith – zeg maar pit
-menu:
-  main:
-    weight: 100
 ---
 
 <figure class="align-right">

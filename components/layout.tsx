@@ -1,10 +1,19 @@
 import Link from "next/link";
 
-type LayoutProps = {
-  children: React.ReactNode;
+import { PageData } from "../lib/api";
+
+export type LayoutProps = {
+  leftMenuItems: PageData[];
+  rightMenuItems: PageData[];
+  topMenuItems: PageData[];
 };
 
-const Layout: React.FC<LayoutProps> = ({ children }) => (
+const Layout: React.FC<LayoutProps> = ({
+  children,
+  leftMenuItems,
+  rightMenuItems,
+  topMenuItems,
+}) => (
   <div id="outer">
     <div id="mainSpacerTop"></div>
     <div id="main">
@@ -22,20 +31,24 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
         <nav>
           <div className="menu-links-container">
             <ul id="menu-links" className="main-menu main-menu-left">
-              <li>
-                <Link href="/wie-doet-wat/">
-                  <a>Wat &amp; Wie</a>
-                </Link>
-              </li>
+              {leftMenuItems && leftMenuItems[0] && (
+                <li>
+                  <Link href={`/${leftMenuItems[0].id}`}>
+                    <a>{leftMenuItems[0].label || leftMenuItems[0].title}</a>
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
           <div className="menu-rechts-container">
             <ul id="menu-rechts" className="main-menu main-menu-right">
-              <li>
-                <Link href="/piith/">
-                  <a>Over Piith</a>
-                </Link>
-              </li>
+              {rightMenuItems && rightMenuItems[0] && (
+                <li>
+                  <Link href={`/${rightMenuItems[0].id}`}>
+                    <a>{rightMenuItems[0].label || rightMenuItems[0].title}</a>
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         </nav>
@@ -45,25 +58,18 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
         <div className="menu-top-container">
           <ul id="menu-top" className="top-menu">
             <li>
-              <Link href="/lesrooster/">
-                <a>lesrooster</a>
+              <Link href="/">
+                <a>home</a>
               </Link>
             </li>
-            <li>
-              <Link href="/recensies/">
-                <a>recensies</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact/">
-                <a>contact</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/privacyverklaring/">
-                <a>privacyverklaring</a>
-              </Link>
-            </li>
+            {topMenuItems &&
+              topMenuItems.map((item) => (
+                <li key={item.id}>
+                  <Link href={`/${item.id}`}>
+                    <a>{item.label || item.title}</a>
+                  </Link>
+                </li>
+              ))}
           </ul>
         </div>
       </nav>

@@ -1,8 +1,8 @@
 ---
 title: Lesrooster
-menu:
-  main:
-    weight: 300
+label: lesrooster
+showInTopMenu: true
+menuWeight: 100
 ---
 
 <p><strong>Therapeuten aanwezig van maandag t/m zaterdag.<br />Behandeling volgens afspraak.</strong></p>

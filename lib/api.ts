@@ -2,12 +2,14 @@ import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 
+import { LayoutProps } from "../components/layout";
+
 const pagesDirectory = join(process.cwd(), "content/pages");
 const postsPerPage = 3;
 const postsDirectory = join(process.cwd(), "content/articles");
 
 const getArticleIdFromFileName = (fileName: string): string =>
-  fileName.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.md$/, "");
+  fileName.replace(/^.*?_/, "").replace(/\.md$/, "");
 
 const getPageIdFromFileName = (fileName: string): string =>
   fileName.replace(/\.md$/, "");
@@ -18,8 +20,13 @@ export type PageData = {
   excerpt?: string;
   id: string;
   isArticle: boolean;
+  label?: string;
+  menuWeight?: number;
   nextArticle?: PageData;
   previousArticle?: PageData;
+  showInLeftMenu?: boolean;
+  showInRightMenu?: boolean;
+  showInTopMenu?: boolean;
   title: string;
 };
 
@@ -31,6 +38,11 @@ const getPageData = (fileName: string): PageData => {
     content: frontMatter.content,
     id,
     isArticle: false,
+    label: frontMatter.data.label || "",
+    menuWeight: frontMatter.data.menuWeight || 0,
+    showInLeftMenu: Boolean(frontMatter.data.showInLeftMenu),
+    showInRightMenu: Boolean(frontMatter.data.showInRightMenu),
+    showInTopMenu: Boolean(frontMatter.data.showInTopMenu),
     title: frontMatter.data.title,
   };
 };
@@ -112,3 +124,24 @@ export const getPage = (id: string): PageData => {
   const fileName = pageFileName || getArticleFileNameById(id);
   return isArticle ? getArticleData(fileName, true) : getPageData(fileName);
 };
+
+const getMenuItems = (): {
+  leftMenuItems: PageData[];
+  rightMenuItems: PageData[];
+  topMenuItems: PageData[];
+} => {
+  const pageNames = fs.readdirSync(pagesDirectory);
+  const pages = pageNames.map(getPageData);
+  const leftMenuItems = pages.filter((page) => page.showInLeftMenu);
+  const rightMenuItems = pages.filter((page) => page.showInRightMenu);
+  const topMenuItems = pages
+    .filter((page) => page.showInTopMenu)
+    .sort((a, b) => (a.menuWeight > b.menuWeight ? 1 : -1));
+  return {
+    leftMenuItems,
+    rightMenuItems,
+    topMenuItems,
+  };
+};
+
+export const getLayoutProps = (): LayoutProps => getMenuItems();

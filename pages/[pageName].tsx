@@ -2,8 +2,7 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { useMemo } from "react";
 
 import ArticleNavigation from "../components/article-navigation";
-import Layout from "../components/layout";
-import { getPage, getPageNames, PageData } from "../lib/api";
+import { getLayoutProps, getPage, getPageNames, PageData } from "../lib/api";
 import { formatDate } from "../lib/date";
 import { processMarkdown } from "../lib/md";
 
@@ -15,6 +14,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   });
   return {
     props: {
+      layoutProps: getLayoutProps(),
       page: getPage(
         Array.isArray(params.pageName) ? params.pageName[0] : params.pageName
       ),
@@ -46,7 +46,7 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
   );
 
   return (
-    <Layout>
+    <>
       {page.isArticle ? (
         <>
           <article>
@@ -69,7 +69,7 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
           {processedContent}
         </article>
       )}
-    </Layout>
+    </>
   );
 };
 

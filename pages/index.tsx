@@ -6,9 +6,8 @@ import { join } from "path";
 import { useMemo } from "react";
 
 import ArticleSummary from "../components/article-summary";
-import Layout from "../components/layout";
 import PostsPagination from "../components/posts-pagination";
-import { getPostsData, getPostsPages } from "../lib/api";
+import { getLayoutProps, getPostsData, getPostsPages } from "../lib/api";
 import { processMarkdown } from "../lib/md";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -24,6 +23,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       content: frontMatter.content,
+      layoutProps: getLayoutProps(),
       pageCount: getPostsPages().length,
       posts: getPostsData(1),
       sanitizeSchema,
@@ -66,7 +66,7 @@ const Home: React.FC<HomeProps> = ({
   );
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>{title}</title>
         <link rel="icon" type="image/png" href="/icon.png" />
@@ -77,7 +77,7 @@ const Home: React.FC<HomeProps> = ({
         <ArticleSummary article={post} key={post.id} />
       ))}
       <PostsPagination pageCount={pageCount} />
-    </Layout>
+    </>
   );
 };
 

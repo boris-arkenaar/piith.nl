@@ -2,9 +2,8 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { useMemo } from "react";
 
 import ArticleSummary from "../../components/article-summary";
-import Layout from "../../components/layout";
 import PostsPagination from "../../components/posts-pagination";
-import { getPostsData, getPostsPages } from "../../lib/api";
+import { getLayoutProps, getPostsData, getPostsPages } from "../../lib/api";
 import { processMarkdown } from "../../lib/md";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -19,6 +18,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       currentPage: pageNumber,
+      layoutProps: getLayoutProps(),
       pageCount: getPostsPages().length,
       posts: getPostsData(pageNumber),
       sanitizeSchema,
@@ -65,12 +65,12 @@ const Page: React.FC<PageProps> = ({
   );
 
   return (
-    <Layout>
+    <>
       {processedPosts.map((post) => (
         <ArticleSummary article={post} key={post.id} />
       ))}
       <PostsPagination currentPage={currentPage} pageCount={pageCount} />
-    </Layout>
+    </>
   );
 };
 
