@@ -16,11 +16,13 @@ const ArticleSummary: React.FC<ArticleSummaryProps> = ({ article }) => {
           </Link>
         </h1>
       </header>
-      {article.content}
-      {article.hasMore && (
-        <Link href={`/${article.id}#lees-verder`}>
-          <a className="more-link">Lees verder →</a>
-        </Link>
+      {article.excerpt || article.content}
+      {article.excerpt && (
+        <p>
+          <Link href={`/${article.id}#lees-verder`}>
+            <a className="more-link">Lees verder →</a>
+          </Link>
+        </p>
       )}
       <footer className="entry-meta">{formatDate(article.date)}</footer>
     </article>

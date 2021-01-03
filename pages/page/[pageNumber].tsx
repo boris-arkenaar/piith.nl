@@ -20,7 +20,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       currentPage: pageNumber,
       pageCount: getPostsPages().length,
-      posts: await getPostsData(pageNumber),
+      posts: getPostsData(pageNumber),
       sanitizeSchema,
     },
   };
@@ -54,9 +54,14 @@ const Page: React.FC<PageProps> = ({
     () =>
       posts.map((post) => ({
         ...post,
-        content: processMarkdown(post.content, sanitizeSchema),
+        content: !post.excerpt
+          ? processMarkdown(post.content, sanitizeSchema)
+          : "",
+        excerpt: post.excerpt
+          ? processMarkdown(post.excerpt, sanitizeSchema)
+          : "",
       })),
-    []
+    [posts]
   );
 
   return (

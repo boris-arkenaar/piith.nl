@@ -25,7 +25,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       content: frontMatter.content,
       pageCount: getPostsPages().length,
-      posts: await getPostsData(1),
+      posts: getPostsData(1),
       sanitizeSchema,
       title: frontMatter.data.title,
     },
@@ -49,15 +49,20 @@ const Home: React.FC<HomeProps> = ({
 }) => {
   const processedContent = useMemo(
     () => processMarkdown(content, sanitizeSchema),
-    []
+    [content]
   );
   const processedPosts = useMemo(
     () =>
       posts.map((post) => ({
         ...post,
-        content: processMarkdown(post.content, sanitizeSchema),
+        content: !post.excerpt
+          ? processMarkdown(post.content, sanitizeSchema)
+          : "",
+        excerpt: post.excerpt
+          ? processMarkdown(post.excerpt, sanitizeSchema)
+          : "",
       })),
-    []
+    [posts]
   );
 
   return (

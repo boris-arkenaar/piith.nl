@@ -15,7 +15,7 @@ const getPageIdFromFileName = (fileName: string): string =>
 export type PageData = {
   content: string;
   date?: string;
-  hasMore?: boolean;
+  excerpt?: string;
   id: string;
   isArticle: boolean;
   nextArticle?: PageData;
@@ -58,17 +58,15 @@ const getArticleData = (
   const id = getArticleIdFromFileName(fileName);
   const fullPath = join(postsDirectory, fileName);
   const rawContent = fs.readFileSync(fullPath, "utf8");
-  const frontMatter = matter(rawContent);
-  const [content, ...more] = frontMatter.content.split("<!--more-->");
-  const hasMore = more.length > 0;
+  const frontMatter = matter(rawContent, { excerpt_separator: "<!--more-->" });
   const surroundingArticles = includeSurroundingArticles
     ? getSurroundingArticles(fileName)
     : {};
   return {
     ...surroundingArticles,
-    content,
+    content: frontMatter.content,
     date: frontMatter.data.date.toISOString(),
-    hasMore,
+    excerpt: frontMatter.excerpt,
     id,
     isArticle: true,
     title: frontMatter.data.title,
