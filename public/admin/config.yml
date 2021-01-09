@@ -1,5 +1,5 @@
 backend:
-  branch: next
+  branch: content
   name: git-gateway
 collections:
   - name: "page" # Used in routes, e.g., /admin/collections/blog
