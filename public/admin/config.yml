@@ -1,6 +1,6 @@
 backend:
   branch: next
-  name: test-repo
+  name: git-gateway
 collections:
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Page" # Used in the UI
