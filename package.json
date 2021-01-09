@@ -1,0 +1,58 @@
+{
+  "name": "piith.nl",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --pretty --noEmit",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "test-all": "yarn lint && yarn type-check"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn run type-check"
+    }
+  },
+  "lint-staged": {
+    "*.@(ts|tsx)": [
+      "yarn lint",
+      "yarn format"
+    ]
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "date-fns": "^2.16.1",
+    "deepmerge": "^4.2.2",
+    "gray-matter": "^4.0.2",
+    "hast-util-sanitize": "^3.0.2",
+    "next": "^10.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "rehype-raw": "^5.0.0",
+    "rehype-react": "^6.1.0",
+    "rehype-sanitize": "^4.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0",
+    "unified": "^9.2.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^1.0.3",
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "netlify-plugin-cache-nextjs": "^1.5.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}

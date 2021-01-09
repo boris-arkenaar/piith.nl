@@ -1,6 +1,6 @@
 ---
 title: Article Twee
-date: 2019-09-06T16:03:17+02:00
+date: 2020-12-30T11:03:17+02:00
 alias: /article2/
 ---
 

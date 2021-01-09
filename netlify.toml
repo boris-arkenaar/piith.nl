@@ -1,2 +1,8 @@
-[context.production.environment]
-  HUGO_VERSION = "0.54.0"
+[build]
+  command = "yarn build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[plugins]]
+  package = "netlify-plugin-cache-nextjs"
