@@ -3,7 +3,11 @@ import { useMemo } from "react";
 
 import ArticleSummary from "../../components/article-summary";
 import PostsPagination from "../../components/posts-pagination";
-import { getLayoutProps, getPostsData, getPostsPages } from "../../lib/api";
+import {
+  getArticles,
+  getArticlesPagination,
+  getLayoutProps,
+} from "../../lib/api";
 import { processMarkdown } from "../../lib/md";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -19,8 +23,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       currentPage: pageNumber,
       layoutProps: getLayoutProps(),
-      pageCount: getPostsPages().length,
-      posts: getPostsData(pageNumber),
+      pageCount: getArticlesPagination().length,
+      posts: getArticles(pageNumber),
       sanitizeSchema,
     },
   };
@@ -28,7 +32,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: getPostsPages().map((page) => ({
+    paths: getArticlesPagination().map((page) => ({
       params: {
         pageNumber: page,
       },

@@ -7,7 +7,7 @@ import { useMemo } from "react";
 
 import ArticleSummary from "../components/article-summary";
 import PostsPagination from "../components/posts-pagination";
-import { getLayoutProps, getPostsData, getPostsPages } from "../lib/api";
+import { getArticles, getArticlesPagination, getLayoutProps } from "../lib/api";
 import { processMarkdown } from "../lib/md";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -24,8 +24,8 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       content: frontMatter.content,
       layoutProps: getLayoutProps(),
-      pageCount: getPostsPages().length,
-      posts: getPostsData(1),
+      pageCount: getArticlesPagination().length,
+      posts: getArticles(1),
       sanitizeSchema,
       title: frontMatter.data.title,
     },

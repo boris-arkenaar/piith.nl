@@ -5,13 +5,10 @@ import { join } from "path";
 import { LayoutProps } from "../components/layout";
 
 const pagesDirectory = join(process.cwd(), "content/pages");
-const postsPerPage = 3;
-const postsDirectory = join(process.cwd(), "content/articles");
+const articlesPerPage = 3;
+const articlesDirectory = join(process.cwd(), "content/articles");
 
-const getArticleIdFromFileName = (fileName: string): string =>
-  fileName.replace(/^.*?_/, "").replace(/\.md$/, "");
-
-const getPageIdFromFileName = (fileName: string): string =>
+const getIdFromFileName = (fileName: string): string =>
   fileName.replace(/\.md$/, "");
 
 export type PageData = {
@@ -31,7 +28,7 @@ export type PageData = {
 };
 
 const getPageData = (fileName: string): PageData => {
-  const id = getPageIdFromFileName(fileName);
+  const id = getIdFromFileName(fileName);
   const rawContent = fs.readFileSync(join(pagesDirectory, fileName), "utf8");
   const frontMatter = matter(rawContent);
   return {
@@ -47,35 +44,11 @@ const getPageData = (fileName: string): PageData => {
   };
 };
 
-const getSurroundingArticles = (
-  currentFileName: string
-): { nextArticle: PageData; previousArticle: PageData } => {
-  const fileNames = fs.readdirSync(postsDirectory);
-  const currentIndex = fileNames.indexOf(currentFileName);
-  const nextFileName =
-    currentIndex + 1 < fileNames.length && fileNames[currentIndex + 1];
-  const previousFileName = currentIndex - 1 >= 0 && fileNames[currentIndex - 1];
-  const nextArticle = nextFileName && getArticleData(nextFileName);
-  const previousArticle = previousFileName && getArticleData(previousFileName);
-  return {
-    nextArticle,
-    previousArticle,
-  };
-};
-
-const getArticleData = (
-  fileName: string,
-  includeSurroundingArticles = false
-): PageData => {
-  const id = getArticleIdFromFileName(fileName);
-  const fullPath = join(postsDirectory, fileName);
-  const rawContent = fs.readFileSync(fullPath, "utf8");
+const getArticleData = (fileName: string): PageData => {
+  const id = getIdFromFileName(fileName);
+  const rawContent = fs.readFileSync(join(articlesDirectory, fileName), "utf8");
   const frontMatter = matter(rawContent, { excerpt_separator: "<!--more-->" });
-  const surroundingArticles = includeSurroundingArticles
-    ? getSurroundingArticles(fileName)
-    : {};
   return {
-    ...surroundingArticles,
     content: frontMatter.content,
     date: frontMatter.data.date.toISOString(),
     excerpt: frontMatter.excerpt,
@@ -85,44 +58,56 @@ const getArticleData = (
   };
 };
 
-export const getPostsData = (page: number): PageData[] => {
-  const fileNames = fs.readdirSync(postsDirectory);
-  const end = page * postsPerPage;
-  const start = end - postsPerPage;
-  return fileNames
-    .reverse()
-    .slice(start, end)
-    .map((fileName) => getArticleData(fileName));
+export const getArticles = (page?: number): PageData[] => {
+  const end = page ? page * articlesPerPage : undefined;
+  const start = page ? end - articlesPerPage : 0;
+  return fs
+    .readdirSync(articlesDirectory)
+    .map((name) => getArticleData(name))
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .slice(start, end);
 };
 
-export const getPostsPages = (): string[] => {
-  const fileNames = fs.readdirSync(postsDirectory);
-  const pageCount = Math.ceil(fileNames.length / postsPerPage);
+export const getArticlesPagination = (): string[] => {
+  const fileNames = fs.readdirSync(articlesDirectory);
+  const pageCount = Math.ceil(fileNames.length / articlesPerPage);
   return new Array(pageCount).fill(0).map((_, i) => (i + 1).toString());
 };
 
 export const getPageNames = (): string[] => {
   return [
-    ...fs.readdirSync(postsDirectory).map(getArticleIdFromFileName),
-    ...fs.readdirSync(pagesDirectory).map(getPageIdFromFileName),
+    ...fs.readdirSync(articlesDirectory).map(getIdFromFileName),
+    ...fs.readdirSync(pagesDirectory).map(getIdFromFileName),
   ];
 };
 
-const getArticleFileNameById = (id: string): string | undefined =>
-  fs
-    .readdirSync(postsDirectory)
-    .find((fileName) => getArticleIdFromFileName(fileName) === id);
+const getArticleDataById = (id: string): PageData | undefined => {
+  const articles = getArticles();
+  const currentIndex = articles.findIndex((article) => article.id === id);
+  const currentArticle = currentIndex > -1 && articles[currentIndex];
+  const nextArticle = currentIndex - 1 >= 0 && articles[currentIndex - 1];
+  const previousArticle =
+    currentArticle &&
+    currentIndex + 1 < articles.length &&
+    articles[currentIndex + 1];
+  return (
+    currentArticle && {
+      ...currentArticle,
+      nextArticle,
+      previousArticle,
+    }
+  );
+};
 
 const getPageFileNameById = (id: string): string | undefined =>
   fs
     .readdirSync(pagesDirectory)
-    .find((fileName) => getPageIdFromFileName(fileName) === id);
+    .find((fileName) => getIdFromFileName(fileName) === id);
 
 export const getPage = (id: string): PageData => {
   const pageFileName = getPageFileNameById(id);
   const isArticle = !pageFileName;
-  const fileName = pageFileName || getArticleFileNameById(id);
-  return isArticle ? getArticleData(fileName, true) : getPageData(fileName);
+  return isArticle ? getArticleDataById(id) : getPageData(pageFileName);
 };
 
 const getMenuItems = (): {
