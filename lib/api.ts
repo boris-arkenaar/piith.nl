@@ -7,6 +7,7 @@ import { LayoutProps } from "../components/layout";
 const pagesDirectory = join(process.cwd(), "content/pages");
 const articlesPerPage = 3;
 const articlesDirectory = join(process.cwd(), "content/articles");
+const practitionersDirectory = join(process.cwd(), "content/practitioners");
 
 const getIdFromFileName = (fileName: string): string =>
   fileName.replace(/\.md$/, "");
@@ -130,3 +131,50 @@ const getMenuItems = (): {
 };
 
 export const getLayoutProps = (): LayoutProps => getMenuItems();
+
+export type PractitionerData = {
+  content: string;
+  id: string;
+  name: string;
+  menuWeight?: number;
+  showInMenu?: boolean;
+  company?: string;
+  companyLink?: string;
+  companyLogo?: string;
+};
+
+const getPractitionerData = (fileName: string): PractitionerData => {
+  const id = getIdFromFileName(fileName);
+  const rawContent = fs.readFileSync(
+    join(practitionersDirectory, fileName),
+    "utf8"
+  );
+  const frontMatter = matter(rawContent);
+  return {
+    content: frontMatter.content,
+    id,
+    name: frontMatter.data.name,
+    menuWeight: frontMatter.data.menuWeight || 0,
+    showInMenu: Boolean(frontMatter.data.showInMenu),
+    company: frontMatter.data.company || "",
+    companyLink: frontMatter.data.companyLink || "",
+    companyLogo: frontMatter.data.companyLogo || "",
+  };
+};
+
+export const getPractitionerNames = (): string[] =>
+  fs.readdirSync(practitionersDirectory).map(getIdFromFileName);
+
+const getPractitionerFileNameById = (id: string): string | undefined =>
+  fs
+    .readdirSync(practitionersDirectory)
+    .find((fileName) => getIdFromFileName(fileName) === id);
+
+export const getPractitioner = (id: string): PractitionerData =>
+  getPractitionerData(getPractitionerFileNameById(id));
+
+export const getPractitioners = (): PractitionerData[] =>
+  fs
+    .readdirSync(practitionersDirectory)
+    .map(getPractitionerData)
+    .sort((a, b) => (a.menuWeight > b.menuWeight ? 1 : -1));
