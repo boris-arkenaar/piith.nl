@@ -45,31 +45,27 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
     [page]
   );
 
-  return (
+  return page.isArticle ? (
     <>
-      {page.isArticle ? (
-        <>
-          <article>
-            <header>
-              <h1>{page.title}</h1>
-            </header>
-            {processedContent}
-            <footer className="entry-meta">{formatDate(page.date)}</footer>
-          </article>
-          <ArticleNavigation
-            next={page.nextArticle}
-            previous={page.previousArticle}
-          />
-        </>
-      ) : (
-        <article>
-          <header>
-            <h1>{page.title}</h1>
-          </header>
-          {processedContent}
-        </article>
-      )}
+      <article>
+        <header>
+          <h1>{page.title}</h1>
+        </header>
+        {processedContent}
+        <footer className="entry-meta">{formatDate(page.date)}</footer>
+      </article>
+      <ArticleNavigation
+        next={page.nextArticle}
+        previous={page.previousArticle}
+      />
     </>
+  ) : (
+    <article>
+      <header>
+        <h1>{page.title}</h1>
+      </header>
+      {processedContent}
+    </article>
   );
 };
 

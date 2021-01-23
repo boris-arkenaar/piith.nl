@@ -4,4 +4,4 @@ label: Wat & Wie
 showInLeftMenu: true
 ---
 
-<p>Piith - zeg maar pit.</p>
+Piith - zeg maar pit.

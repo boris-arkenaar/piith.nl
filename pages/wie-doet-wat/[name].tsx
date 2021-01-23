@@ -1,5 +1,6 @@
 import { GetStaticProps, GetStaticPaths } from "next";
 import { useMemo } from "react";
+import PractitionerLogo from "../../components/practitioner-logo";
 
 import PractitionerNavigation from "../../components/practitioner-navigation";
 import {
@@ -40,16 +41,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-const renderLogo = (practitioner: PractitionerData) => (
-  <img
-    className="alignleft"
-    src={practitioner.companyLogo}
-    alt={`Logo ${practitioner.company}`}
-    width="48"
-    height="48"
-  />
-);
-
 type PractitionerProps = {
   practitioner: PractitionerData;
   practitioners: PractitionerData[];
@@ -76,12 +67,18 @@ const Practitioner: React.FC<PractitionerProps> = ({
             <h2 className="company">
               {practitioner.companyLink ? (
                 <a href={practitioner.companyLink}>
-                  {practitioner.companyLogo && renderLogo(practitioner)}
+                  <PractitionerLogo
+                    className="alignleft"
+                    practitioner={practitioner}
+                  />
                   {practitioner.company}
                 </a>
               ) : (
                 <>
-                  {practitioner.companyLogo && renderLogo(practitioner)}
+                  <PractitionerLogo
+                    className="alignleft"
+                    practitioner={practitioner}
+                  />
                   {practitioner.company}
                 </>
               )}

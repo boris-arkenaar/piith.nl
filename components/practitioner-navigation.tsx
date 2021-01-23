@@ -8,20 +8,18 @@ type PractitionerNavigationProps = {
 
 const PractitionerNavigation: React.FC<PractitionerNavigationProps> = ({
   practitioners,
-}) => {
-  return (
-    <nav className="sub-menu">
-      <ul className="sub-menu">
-        {practitioners.map((practitioner) => (
-          <li className="menu-item" key={practitioner.id}>
-            <Link href={`/wie-doet-wat/${practitioner.id}`}>
-              <a>{practitioner.name}</a>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  );
-};
+}) => (
+  <nav className="sub-menu">
+    <ul className="sub-menu">
+      {practitioners.map((practitioner) => (
+        <li className="menu-item" key={practitioner.id}>
+          <Link href={`/wie-doet-wat/${practitioner.id}`}>
+            <a>{practitioner.name}</a>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </nav>
+);
 
 export default PractitionerNavigation;

@@ -133,14 +133,15 @@ const getMenuItems = (): {
 export const getLayoutProps = (): LayoutProps => getMenuItems();
 
 export type PractitionerData = {
+  activities: string[];
+  company: string;
+  companyLink: string;
+  companyLogo: string;
   content: string;
   id: string;
+  menuWeight: number;
   name: string;
-  menuWeight?: number;
-  showInMenu?: boolean;
-  company?: string;
-  companyLink?: string;
-  companyLogo?: string;
+  showInMenu: boolean;
 };
 
 const getPractitionerData = (fileName: string): PractitionerData => {
@@ -151,14 +152,15 @@ const getPractitionerData = (fileName: string): PractitionerData => {
   );
   const frontMatter = matter(rawContent);
   return {
-    content: frontMatter.content,
-    id,
-    name: frontMatter.data.name,
-    menuWeight: frontMatter.data.menuWeight || 0,
-    showInMenu: Boolean(frontMatter.data.showInMenu),
+    activities: frontMatter.data.activities || [],
     company: frontMatter.data.company || "",
     companyLink: frontMatter.data.companyLink || "",
     companyLogo: frontMatter.data.companyLogo || "",
+    content: frontMatter.content,
+    id,
+    menuWeight: frontMatter.data.menuWeight || 0,
+    name: frontMatter.data.name,
+    showInMenu: Boolean(frontMatter.data.showInMenu),
   };
 };
 
