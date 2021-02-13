@@ -11,6 +11,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const githubSchema = require("hast-util-sanitize/lib/github");
   const sanitizeSchema = merge(githubSchema, {
     attributes: { "*": ["className"] },
+    protocols: {
+      href: ["tel"],
+    },
   });
   return {
     props: {
