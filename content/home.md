@@ -3,7 +3,7 @@ title: Piith – zeg maar pit
 ---
 
 <figure class="align-right">
-  <p><img src="http://piith.nl/wp-content/uploads/2013/05/DSC5141-300x200.jpg" alt="Voorkant Piith" width="270" height="180" /></p>
+  <p><img src="/uploads/2013/05/DSC5141-300x200.jpg" alt="Voorkant Piith" width="270" height="180" /></p>
   <figcaption>Foto Noor Ysbrandy</figcaption>
 </figure>
 
@@ -17,7 +17,7 @@ Wil je weten wie bij Piith werken en wat ze doen kijk dan op [Wie & Wat](/wie-do
 
 <br class="clear" />
 
-<img src="http://piith.nl/wp-content/uploads/2015/09/Shiatsu_het_Gooi_3251_13-269x180.jpg#left" alt="Ingang" width="269" height="180" />
+<img src="/uploads/2015/09/Shiatsu_het_Gooi_3251_13-269x180.jpg#left" alt="Ingang" width="269" height="180" />
 
 \
 Piith is ook creatief en muzikaal en biedt graag ruimte aan startende ondernemers. Wil je moeiteloos en plezierig werken vanuit interesse en passie, met inspirerende collega's, dan ben je van harte welkom.
@@ -25,7 +25,7 @@ Piith is ook creatief en muzikaal en biedt graag ruimte aan startende ondernemer
 [Meer over Piith →](/piith/)
 
 <figure class="align-right">
-  <p><img src="http://piith.nl/wp-content/uploads/2013/02/DSC4420bewerkt-254x180.jpg" alt="" width="254" height="180" /> <img src="http://piith.nl/wp-content/uploads/2013/02/DSC5128-e1369332980229-200x300.jpg" alt="" width="120" height="180" /> <img src="http://piith.nl/wp-content/uploads/2013/02/DSC4461bewerkt-300x212.jpg" alt="Groepsruimte" width="254" height="180" /></p>
+  <p><img src="/uploads/2013/02/DSC4420bewerkt-254x180.jpg" alt="" width="254" height="180" /> <img src="/uploads/2013/02/DSC5128-e1369332980229-200x300.jpg" alt="" width="120" height="180" /> <img src="/uploads/2013/02/DSC4461bewerkt-300x212.jpg" alt="Groepsruimte" width="254" height="180" /></p>
   <figcaption>Foto's Noor Ysbrandy</figcaption>
 </figure>
 
