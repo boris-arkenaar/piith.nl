@@ -10,8 +10,8 @@ const MarkdownLink: React.FC<MarkdownLinkProps> = ({
   ...props
 }) =>
   href ? (
-    <Link href={href}>
-      <a {...props}>{children}</a>
+    <Link href={href} {...props}>
+      {children}
     </Link>
   ) : (
     <a {...props}>{children}</a>

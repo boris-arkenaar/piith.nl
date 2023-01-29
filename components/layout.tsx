@@ -20,10 +20,8 @@ const Layout: React.FC<LayoutProps> = ({
       <div id="mainHead">
         <header>
           <h1>
-            <Link href="/">
-              <a rel="home">
-                <span>Piith</span>
-              </a>
+            <Link href="/" rel="home">
+              <span>Piith</span>
             </Link>
           </h1>
           <h2>Professionele Integratieve Interactieve Therapeuten</h2>
@@ -34,7 +32,7 @@ const Layout: React.FC<LayoutProps> = ({
               {leftMenuItems && leftMenuItems[0] && (
                 <li>
                   <Link href={`/${leftMenuItems[0].id}`}>
-                    <a>{leftMenuItems[0].label || leftMenuItems[0].title}</a>
+                    {leftMenuItems[0].label || leftMenuItems[0].title}
                   </Link>
                 </li>
               )}
@@ -45,7 +43,7 @@ const Layout: React.FC<LayoutProps> = ({
               {rightMenuItems && rightMenuItems[0] && (
                 <li>
                   <Link href={`/${rightMenuItems[0].id}`}>
-                    <a>{rightMenuItems[0].label || rightMenuItems[0].title}</a>
+                    {rightMenuItems[0].label || rightMenuItems[0].title}
                   </Link>
                 </li>
               )}
@@ -58,16 +56,12 @@ const Layout: React.FC<LayoutProps> = ({
         <div className="menu-top-container">
           <ul id="menu-top" className="top-menu">
             <li>
-              <Link href="/">
-                <a>home</a>
-              </Link>
+              <Link href="/">home</Link>
             </li>
             {topMenuItems &&
               topMenuItems.map((item) => (
                 <li key={item.id}>
-                  <Link href={`/${item.id}`}>
-                    <a>{item.label || item.title}</a>
-                  </Link>
+                  <Link href={`/${item.id}`}>{item.label || item.title}</Link>
                 </li>
               ))}
           </ul>

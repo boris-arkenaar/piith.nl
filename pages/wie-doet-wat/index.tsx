@@ -54,13 +54,11 @@ const Practitioners: React.FC<PageProps> = ({
         <Fragment key={practitioner.id}>
           <h2 className="who-header">
             <Link href={`/wie-doet-wat/${practitioner.id}`}>
-              <a>
-                <PractitionerLogo
-                  className="alignleft who-logo"
-                  practitioner={practitioner}
-                />
-                {practitioner.name}
-              </a>
+              <PractitionerLogo
+                className="alignleft who-logo"
+                practitioner={practitioner}
+              />
+              {practitioner.name}
             </Link>
           </h2>
           {practitioner.activities.length > 0 && (

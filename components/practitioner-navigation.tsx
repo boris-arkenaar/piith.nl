@@ -14,7 +14,7 @@ const PractitionerNavigation: React.FC<PractitionerNavigationProps> = ({
       {practitioners.map((practitioner) => (
         <li className="menu-item" key={practitioner.id}>
           <Link href={`/wie-doet-wat/${practitioner.id}`}>
-            <a>{practitioner.name}</a>
+            {practitioner.name}
           </Link>
         </li>
       ))}

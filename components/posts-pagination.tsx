@@ -4,8 +4,8 @@ import PaginationItem from "@material-ui/lab/PaginationItem";
 import Link from "next/link";
 
 const ButtonLink = ({ children, href, ...buttonLinkProps }) => (
-  <Link href={href}>
-    <a {...buttonLinkProps}>{children}</a>
+  <Link href={href} {...buttonLinkProps}>
+    {children}
   </Link>
 );
 

@@ -16,19 +16,15 @@ const ArticleNavigation: React.FC<ArticleNavigationProps> = ({
       <h3 className="assistive-text">Post navigation</h3>
       {previous && (
         <span className="nav-previous">
-          <Link href={`/${previous.id}`}>
-            <a rel="prev">
-              <span className="meta-nav">←</span> {previous.title}
-            </a>
+          <Link href={`/${previous.id}`} rel="prev">
+            <span className="meta-nav">←</span> {previous.title}
           </Link>
         </span>
       )}
       {next && (
         <span className="nav-next">
-          <Link href={`/${next.id}`}>
-            <a rel="next">
-              {next.title} <span className="meta-nav">→</span>
-            </a>
+          <Link href={`/${next.id}`} rel="next">
+            {next.title} <span className="meta-nav">→</span>
           </Link>
         </span>
       )}
