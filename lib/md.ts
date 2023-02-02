@@ -5,7 +5,7 @@ import rehypeReact from "rehype-react";
 import rehypeSanitize from "rehype-sanitize";
 import remark from "remark-parse";
 import remarkRehype from "remark-rehype";
-import unified from "unified";
+import { unified } from "unified";
 
 import MarkdownLink from "../components/markdown-link";
 

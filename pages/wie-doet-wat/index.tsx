@@ -2,6 +2,8 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import { Fragment, useMemo } from "react";
 import PractitionerLogo from "../../components/practitioner-logo";
+import deepmerge from "deepmerge";
+import { defaultSchema } from "hast-util-sanitize";
 
 import {
   getLayoutProps,
@@ -13,9 +15,7 @@ import {
 import { processMarkdown } from "../../lib/md";
 
 export const getStaticProps: GetStaticProps = async () => {
-  const merge = require("deepmerge");
-  const githubSchema = require("hast-util-sanitize/lib/github");
-  const sanitizeSchema = merge(githubSchema, {
+  const sanitizeSchema = deepmerge(defaultSchema, {
     attributes: { "*": ["className"] },
   });
   return {

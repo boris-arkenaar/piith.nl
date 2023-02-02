@@ -4,17 +4,18 @@ import { GetStaticProps } from "next";
 import Head from "next/head";
 import { join } from "path";
 import { useMemo } from "react";
+import deepmerge from "deepmerge";
+import { defaultSchema } from "hast-util-sanitize";
 
 import ArticleSummary from "../components/article-summary";
 import PostsPagination from "../components/posts-pagination";
 import { getArticles, getArticlesPagination, getLayoutProps } from "../lib/api";
 import { processMarkdown } from "../lib/md";
+import Script from "next/script";
 
 export const getStaticProps: GetStaticProps = async () => {
   const home = join(process.cwd(), "content/home.md");
-  const merge = require("deepmerge");
-  const githubSchema = require("hast-util-sanitize/lib/github");
-  const sanitizeSchema = merge(githubSchema, {
+  const sanitizeSchema = deepmerge(defaultSchema, {
     attributes: { "*": ["className"] },
   });
   const rawContent = fs.readFileSync(home, "utf8");
@@ -70,8 +71,8 @@ const Home: React.FC<HomeProps> = ({
       <Head>
         <title>{title}</title>
         <link rel="icon" type="image/png" href="/icon.png" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
+      <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       {processedContent}
       {processedPosts.map((post) => (
         <ArticleSummary article={post} key={post.id} />
