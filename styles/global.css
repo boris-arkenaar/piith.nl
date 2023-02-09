@@ -284,19 +284,22 @@ figcaption {
 
 .aligncenter,
 .align-center,
-img[src*="#center"] {
+img[src*="#center"],
+img[src*="align=center"] {
   display: block;
   margin: 0.5em auto;
 }
 .alignleft,
 .align-left,
-img[src*="#left"] {
+img[src*="#left"],
+img[src*="align=left"] {
   float: left;
   margin: 0.5em 1em 0.5em 0;
 }
 .alignright,
 .align-right,
-img[src*="#right"] {
+img[src*="#right"],
+img[src*="align=right"] {
   float: right;
   margin: 0.5em 0 0.5em 1em;
 }

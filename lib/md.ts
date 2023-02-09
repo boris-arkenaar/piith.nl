@@ -8,6 +8,7 @@ import remarkRehype from "remark-rehype";
 import { unified } from "unified";
 
 import MarkdownLink from "../components/markdown-link";
+import MarkdownImage from "../components/markdown-image";
 
 export const processMarkdown = (
   content: string,
@@ -22,6 +23,7 @@ export const processMarkdown = (
       createElement,
       components: {
         a: MarkdownLink,
+        img: MarkdownImage,
       },
     })
     .use(rehypeSanitize, sanitizeSchema)
