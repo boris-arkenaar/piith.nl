@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 type MarkdownLinkProps = {
+  children: any;
   href: string;
 };
 

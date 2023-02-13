@@ -25,7 +25,7 @@ export const processMarkdown = (
         a: MarkdownLink,
         img: MarkdownImage,
       },
-    })
+    } as any)
     .use(rehypeSanitize, sanitizeSchema)
     .processSync(frontMatter.content);
   return matterContent.result;

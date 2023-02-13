@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PageData } from "../lib/api";
 
 export type LayoutProps = {
+  children?: any;
   enabled?: boolean;
   leftMenuItems: PageData[];
   rightMenuItems: PageData[];
