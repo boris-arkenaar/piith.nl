@@ -78,7 +78,10 @@ export const getArticlesPagination = (): string[] => {
 export const getPageNames = (): string[] => {
   return [
     ...fs.readdirSync(articlesDirectory).map(getIdFromFileName),
-    ...fs.readdirSync(pagesDirectory).map(getIdFromFileName),
+    ...fs
+      .readdirSync(pagesDirectory)
+      .map(getIdFromFileName)
+      .filter((id) => id !== "wie-doet-wat"),
   ];
 };
 
