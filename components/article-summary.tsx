@@ -11,13 +11,13 @@ const ArticleSummary: React.FC<ArticleSummaryProps> = ({ article }) => {
     <article>
       <header>
         <h1>
-          <Link href={`/${article.id}`}>{article.title}</Link>
+          <Link href={`/${article.alias}`}>{article.title}</Link>
         </h1>
       </header>
       {article.excerpt || article.content}
       {article.excerpt && (
         <p>
-          <Link href={`/${article.id}#lees-verder`} className="more-link">
+          <Link href={`/${article.alias}#lees-verder`} className="more-link">
             Lees verder →
           </Link>
         </p>

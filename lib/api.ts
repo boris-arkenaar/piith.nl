@@ -12,7 +12,14 @@ const practitionersDirectory = join(process.cwd(), "content/practitioners");
 const getIdFromFileName = (fileName: string): string =>
   fileName.replace(/\.md$/, "");
 
+const getAliasFromId = (id: string): string =>
+  id.substring(id.indexOf("_") + 1);
+
+const getAliasFromFileName = (fileName: string): string =>
+  getAliasFromId(getIdFromFileName(fileName));
+
 export type PageData = {
+  alias?: string;
   content: string;
   date?: string;
   excerpt?: string;
@@ -54,6 +61,7 @@ const getArticleData = (fileName: string): PageData => {
     date: frontMatter.data.date.toISOString(),
     excerpt: frontMatter.excerpt,
     id,
+    alias: getAliasFromId(id),
     isArticle: true,
     title: frontMatter.data.title,
   };
@@ -77,7 +85,7 @@ export const getArticlesPagination = (): string[] => {
 
 export const getPageNames = (): string[] => {
   return [
-    ...fs.readdirSync(articlesDirectory).map(getIdFromFileName),
+    ...fs.readdirSync(articlesDirectory).map(getAliasFromFileName),
     ...fs
       .readdirSync(pagesDirectory)
       .map(getIdFromFileName)
@@ -85,9 +93,9 @@ export const getPageNames = (): string[] => {
   ];
 };
 
-const getArticleDataById = (id: string): PageData | undefined => {
+const getArticleDataByAlias = (alias: string): PageData | undefined => {
   const articles = getArticles();
-  const currentIndex = articles.findIndex((article) => article.id === id);
+  const currentIndex = articles.findIndex((article) => article.alias === alias);
   const currentArticle = currentIndex > -1 && articles[currentIndex];
   const nextArticle = currentIndex - 1 >= 0 && articles[currentIndex - 1];
   const previousArticle =
@@ -111,7 +119,7 @@ const getPageFileNameById = (id: string): string | undefined =>
 export const getPage = (id: string): PageData => {
   const pageFileName = getPageFileNameById(id);
   const isArticle = !pageFileName;
-  return isArticle ? getArticleDataById(id) : getPageData(pageFileName);
+  return isArticle ? getArticleDataByAlias(id) : getPageData(pageFileName);
 };
 
 const getMenuItems = (): {

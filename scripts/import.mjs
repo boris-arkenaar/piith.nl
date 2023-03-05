@@ -79,9 +79,10 @@ async function importArticles() {
 
       // Extract title and date
       const title = item.title[0].trim();
-      const date = dateFns.formatISO(
-        dateFns.parseJSON(item["wp:post_date_gmt"][0])
+      const tempDate = dateFns.formatISO(
+        dateFns.parseJSON(item["wp:post_date"][0])
       );
+      const date = tempDate.substring(0, tempDate.length - 1);
 
       // Extract images from content
       const imageResults = [...content.matchAll(imageRegexp)].map(
@@ -91,7 +92,7 @@ async function importArticles() {
 
       // Create markdown file
       const slug = link.replace("http://piith.nl/", "").replace("/", "");
-      const filename = `${slug}.md`;
+      const filename = `${date}_${slug}.md`;
       const filepath = join(process.cwd(), "content", "articles", filename);
       const frontmatter = `---
 title: "${title}"
