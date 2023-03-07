@@ -29,10 +29,7 @@
           "label": "Body",
           "name": "body",
           "widget": "markdown",
-          "editor_components": [
-            "image-formatted",
-            "read-more"
-          ],
+          "editor_components": ["image-formatted", "read-more"],
           "buttons": [
             "bold",
             "italic",
@@ -72,10 +69,7 @@
           "label": "Body",
           "name": "body",
           "widget": "markdown",
-          "editor_components": [
-            "image",
-            "read-more"
-          ],
+          "editor_components": ["image", "read-more"],
           "buttons": [
             "bold",
             "italic",
@@ -166,9 +160,7 @@
           "label": "Body",
           "name": "body",
           "widget": "markdown",
-          "editor_components": [
-            "image"
-          ],
+          "editor_components": ["image"],
           "buttons": [
             "bold",
             "italic",
