@@ -3,8 +3,13 @@ import Image, { ImageLoaderProps, ImageProps } from "next/image";
 export const rootPath = "https://res.cloudinary.com/piith/image/upload/";
 
 export enum Dimensions {
-  MediumPortrait = "medium-portrait",
+  Thumbnail = "thumbnail",
+  SmallLandscape = "small-landscape",
+  SmallPortrait = "small-portrait",
   MediumLandscape = "medium-landscape",
+  MediumPortrait = "medium-portrait",
+  LargeLandscape = "large-landscape",
+  LargePortrait = "large-portrait",
 }
 
 export enum Align {
@@ -14,8 +19,13 @@ export enum Align {
 }
 
 export const dimensionsMap = {
-  [Dimensions.MediumPortrait]: [300, 600],
-  [Dimensions.MediumLandscape]: [600, 300],
+  [Dimensions.Thumbnail]: [48, 48],
+  [Dimensions.SmallLandscape]: [133, 75],
+  [Dimensions.SmallPortrait]: [42, 75],
+  [Dimensions.MediumLandscape]: [320, 180],
+  [Dimensions.MediumPortrait]: [101, 180],
+  [Dimensions.LargeLandscape]: [745, 419],
+  [Dimensions.LargePortrait]: [236, 419],
 };
 
 const getSearchParams = (url: string) => {

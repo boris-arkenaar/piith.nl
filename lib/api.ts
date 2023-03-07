@@ -18,6 +18,9 @@ const getAliasFromId = (id: string): string =>
 const getAliasFromFileName = (fileName: string): string =>
   getAliasFromId(getIdFromFileName(fileName));
 
+const getDateFromId = (id: string): string =>
+  `${id.substring(0, id.indexOf("_"))}Z`;
+
 export type PageData = {
   alias?: string;
   content: string;
@@ -54,16 +57,22 @@ const getPageData = (fileName: string): PageData => {
 
 const getArticleData = (fileName: string): PageData => {
   const id = getIdFromFileName(fileName);
+  const date = getDateFromId(id);
+  const alias = getAliasFromId(id);
   const rawContent = fs.readFileSync(join(articlesDirectory, fileName), "utf8");
-  const frontMatter = matter(rawContent, { excerpt_separator: "<!--more-->" });
+  const {
+    content,
+    excerpt,
+    data: { title },
+  } = matter(rawContent, { excerpt_separator: "<!--more-->" });
   return {
-    content: frontMatter.content,
-    date: frontMatter.data.date.toISOString(),
-    excerpt: frontMatter.excerpt,
+    content,
+    date,
+    excerpt,
     id,
-    alias: getAliasFromId(id),
+    alias,
     isArticle: true,
-    title: frontMatter.data.title,
+    title,
   };
 };
 

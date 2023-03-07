@@ -1,56 +1,17 @@
 /* eslint-disable no-console */
 
-/*
-import dateFns from "date-fns";
-import fs from "fs";
-import { join } from "path";
-import convert from "xml-js";
-
-const file = join(process.cwd(), "scripts/articles.xml");
-const xml = fs.readFileSync(file, "utf8");
-const options = { ignoreComment: false, compact: true, trim: true };
-const result = convert.xml2js(xml, options);
-let images = [];
-const imageRegexp =
-  /src="https:\/\/res.cloudinary.com\/piith\/image\/upload\/(.*?)"/g;
-
-console.log();
-
-result.rss.channel.item.forEach(
-  ({ title, link, "wp:post_date_gmt": date, "content:encoded": content }) => {
-    const improvedContent = content._cdata.replace(
-      "http://piith.nl/wp-content/uploads/",
-      "https://res.cloudinary.com/piith/image/upload/"
-    );
-    const imageResults = [...improvedContent.matchAll(imageRegexp)].map(
-      (match) => match[1]
-    );
-    images = [...images, ...imageResults];
-    const dateString = dateFns.formatISO(dateFns.parseJSON(date._cdata));
-    const slug = link._text.replace("http://piith.nl/", "").replace("/", "");
-    const fileName = `${slug}.md`;
-    const fileContent = `---\ntitle: "${title._text}"\ndate: ${dateString}\n---\n\n${improvedContent}`;
-    const file = join(process.cwd(), "content", "articles", fileName);
-    fs.writeFileSync(file, fileContent);
-    console.log(file);
-  }
-);
-
-console.log(images);
-
-console.log();
-
-*/
-
 import { join } from "path";
 import fs from "fs";
 import { parseStringPromise } from "xml2js";
-import dateFns from "date-fns";
+import { formatISO, parseJSON } from "date-fns";
 
-const articlesFile = join(process.cwd(), "scripts/articles.xml");
+const articlesFile = join(
+  process.cwd(),
+  "import/piith.WordPress.2023-03-05.xml"
+);
 const imagesFile = join(process.cwd(), "import/images.json");
 const imagesDir = join(process.cwd(), "import/images");
-const uploadsDir = join(process.cwd(), "public/uploads");
+const uploadsDir = join(process.cwd(), "import/uploads");
 const imageRegexp =
   /src="https:\/\/res.cloudinary.com\/piith\/image\/upload\/(.*?)"/g;
 
@@ -78,11 +39,9 @@ async function importArticles() {
         .replace(/http:\/\/piith.nl/g, "https://piith.nl");
 
       // Extract title and date
-      const title = item.title[0].trim();
-      const tempDate = dateFns.formatISO(
-        dateFns.parseJSON(item["wp:post_date"][0])
-      );
-      const date = tempDate.substring(0, tempDate.length - 1);
+      const title = item.title[0].trim().replaceAll('"', '\\"');
+      const tempDate = formatISO(parseJSON(item["wp:post_date"][0]));
+      const date = tempDate.substring(0, 19);
 
       // Extract images from content
       const imageResults = [...content.matchAll(imageRegexp)].map(
@@ -96,7 +55,8 @@ async function importArticles() {
       const filepath = join(process.cwd(), "content", "articles", filename);
       const frontmatter = `---
 title: "${title}"
-date: ${date}
+date: ${date}Z
+alias: /${slug}/
 ---
 `;
       fs.writeFileSync(filepath, frontmatter + content);
@@ -105,6 +65,8 @@ date: ${date}
     // Save image list to file
     const imagesArray = Array.from(images);
     fs.writeFileSync(imagesFile, JSON.stringify(imagesArray, null, 2));
+
+    let imagesFailed = [];
 
     // Copy images
     for (const imagePath of imagesArray) {
@@ -116,10 +78,21 @@ date: ${date}
       if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
       }
-      fs.copyFileSync(sourcePath, destPath);
+      try {
+        fs.copyFileSync(sourcePath, destPath);
+        console.debug(dir);
+      } catch (error) {
+        console.debug("FAILED to copy: ", sourcePath);
+        imagesFailed.push(sourcePath);
+      }
     }
 
     console.log("Import complete");
+
+    if (imagesFailed.length) {
+      console.log("The following images failed to copy:");
+      imagesFailed.forEach((image) => console.log(image));
+    }
   } catch (error) {
     console.error("Import error", error);
   }
