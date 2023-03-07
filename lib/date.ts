@@ -7,5 +7,10 @@ const locale = {
     token === "other" ? "PPP" : nl.formatRelative(token),
 };
 
-export const formatDate = (date: string): string =>
-  formatRelative(parseISO(date), new Date(), { locale });
+export const formatDate = (date: string): string => {
+  try {
+    return formatRelative(parseISO(date), new Date(), { locale });
+  } catch (error) {
+    return "onbekende datum";
+  }
+};

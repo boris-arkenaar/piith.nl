@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 type MarkdownLinkProps = {
+  children: any;
   href: string;
 };
 
@@ -8,10 +9,12 @@ const MarkdownLink: React.FC<MarkdownLinkProps> = ({
   children,
   href,
   ...props
-}) => (
-  <Link href={href}>
+}) =>
+  href ? (
+    <Link href={href} {...props}>
+      {children}
+    </Link>
+  ) : (
     <a {...props}>{children}</a>
-  </Link>
-);
-
+  );
 export default MarkdownLink;

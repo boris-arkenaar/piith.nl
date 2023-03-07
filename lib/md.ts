@@ -5,9 +5,10 @@ import rehypeReact from "rehype-react";
 import rehypeSanitize from "rehype-sanitize";
 import remark from "remark-parse";
 import remarkRehype from "remark-rehype";
-import unified from "unified";
+import { unified } from "unified";
 
 import MarkdownLink from "../components/markdown-link";
+import MarkdownImage from "../components/markdown-image";
 
 export const processMarkdown = (
   content: string,
@@ -22,8 +23,9 @@ export const processMarkdown = (
       createElement,
       components: {
         a: MarkdownLink,
+        img: MarkdownImage,
       },
-    })
+    } as any)
     .use(rehypeSanitize, sanitizeSchema)
     .processSync(frontMatter.content);
   return matterContent.result;

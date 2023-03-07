@@ -1,26 +1,30 @@
 import { GetStaticProps, GetStaticPaths } from "next";
 import { useMemo } from "react";
+import deepmerge from "deepmerge";
+import { defaultSchema } from "hast-util-sanitize";
 
 import ArticleSummary from "../../components/article-summary";
 import PostsPagination from "../../components/posts-pagination";
-import { getLayoutProps, getPostsData, getPostsPages } from "../../lib/api";
+import {
+  getArticles,
+  getArticlesPagination,
+  getLayoutProps,
+} from "../../lib/api";
 import { processMarkdown } from "../../lib/md";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const pageNumber = parseInt(
     Array.isArray(params.pageNumber) ? params.pageNumber[0] : params.pageNumber
   );
-  const merge = require("deepmerge");
-  const githubSchema = require("hast-util-sanitize/lib/github");
-  const sanitizeSchema = merge(githubSchema, {
+  const sanitizeSchema = deepmerge(defaultSchema, {
     attributes: { "*": ["className"] },
   });
   return {
     props: {
       currentPage: pageNumber,
       layoutProps: getLayoutProps(),
-      pageCount: getPostsPages().length,
-      posts: getPostsData(pageNumber),
+      pageCount: getArticlesPagination().length,
+      posts: getArticles(pageNumber),
       sanitizeSchema,
     },
   };
@@ -28,7 +32,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: getPostsPages().map((page) => ({
+    paths: getArticlesPagination().map((page) => ({
       params: {
         pageNumber: page,
       },

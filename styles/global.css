@@ -229,17 +229,18 @@ table {
 }
 #mainContent h1 {
   margin: 0 0 0.67em 0;
+  font-size: 2em;
   font-weight: normal;
 }
 #mainContent h2 {
   margin: 1em 0 -0.67em 0;
-  font-weight: bold;
   font-size: 1.2em;
+  font-weight: bold;
 }
 #mainContent h3 {
   margin: 1em 0 -0.67em 0;
-  font-weight: bold;
   font-size: 1em;
+  font-weight: bold;
 }
 #mainContent h1 a {
   color: inherit;
@@ -283,19 +284,22 @@ figcaption {
 
 .aligncenter,
 .align-center,
-img[src*="#center"] {
+img[src*="#center"],
+img[src*="align=center"] {
   display: block;
   margin: 0.5em auto;
 }
 .alignleft,
 .align-left,
-img[src*="#left"] {
+img[src*="#left"],
+img[src*="align=left"] {
   float: left;
   margin: 0.5em 1em 0.5em 0;
 }
 .alignright,
 .align-right,
-img[src*="#right"] {
+img[src*="#right"],
+img[src*="align=right"] {
   float: right;
   margin: 0.5em 0 0.5em 1em;
 }
@@ -369,6 +373,7 @@ img[src*="#right"] {
  */
 #mainContent .what-header,
 #mainContent .who-header {
+  margin: 1em 0 0 0;
   line-height: 1.5em;
   font-size: 1.2em;
   font-weight: normal;
@@ -381,7 +386,6 @@ img[src*="#right"] {
 }
 .who-logo {
   clear: both;
-  margin: 1em 0 0 0;
 }
 .who-list {
   list-style-type: none;

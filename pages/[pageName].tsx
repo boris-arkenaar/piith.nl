@@ -1,5 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from "next";
 import { useMemo } from "react";
+import deepmerge from "deepmerge";
+import { defaultSchema } from "hast-util-sanitize";
 
 import ArticleNavigation from "../components/article-navigation";
 import { getLayoutProps, getPage, getPageNames, PageData } from "../lib/api";
@@ -7,10 +9,11 @@ import { formatDate } from "../lib/date";
 import { processMarkdown } from "../lib/md";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const merge = require("deepmerge");
-  const githubSchema = require("hast-util-sanitize/lib/github");
-  const sanitizeSchema = merge(githubSchema, {
+  const sanitizeSchema = deepmerge(defaultSchema, {
     attributes: { "*": ["className"] },
+    protocols: {
+      href: ["tel"],
+    },
   });
   return {
     props: {
@@ -45,31 +48,27 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
     [page]
   );
 
-  return (
+  return page.isArticle ? (
     <>
-      {page.isArticle ? (
-        <>
-          <article>
-            <header>
-              <h1>{page.title}</h1>
-            </header>
-            {processedContent}
-            <footer className="entry-meta">{formatDate(page.date)}</footer>
-          </article>
-          <ArticleNavigation
-            next={page.nextArticle}
-            previous={page.previousArticle}
-          />
-        </>
-      ) : (
-        <article>
-          <header>
-            <h1>{page.title}</h1>
-          </header>
-          {processedContent}
-        </article>
-      )}
+      <article>
+        <header>
+          <h1>{page.title}</h1>
+        </header>
+        {processedContent}
+        <footer className="entry-meta">{formatDate(page.date)}</footer>
+      </article>
+      <ArticleNavigation
+        next={page.nextArticle}
+        previous={page.previousArticle}
+      />
     </>
+  ) : (
+    <article>
+      <header>
+        <h1>{page.title}</h1>
+      </header>
+      {processedContent}
+    </article>
   );
 };
 
