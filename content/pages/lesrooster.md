@@ -35,8 +35,8 @@ menuWeight: 100
 </tr>
 <tr>
 <td><time>20:00</time> - <time>21:30</time></td>
-<td>Vinyasa flow Yoga</td>
-<td>Ilse</td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Vinyasa Flow & Relax (yang/yin)</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
 <td class="day">woensdag</td>
@@ -53,8 +53,8 @@ menuWeight: 100
 <tr>
 <td class="day" rowspan="2">vrijdag</td>
 <td><time datetime="09:00">&nbsp;9:00</time> - <time>10:30</time></td>
-<td>Flow yoga (Yang Yin)</td>
-<td>Ilse</td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Flow & Relax Yoga (yin/yang)</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
 <td><time>16:30</time> - <time>17:45</time></td>
@@ -62,10 +62,16 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/esteriek-de-heij/">Esteriek</a></td>
 </tr>
 <tr>
-<td class="day">zaterdag</td>
-<td></td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;–</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;–</td>
+<tr>
+<td class="day" rowspan="2">zaterdag</td>
+<td><time datetime="09:30">&nbsp;9:30</time> - <time>11:00</time></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Vinyasa Flow & Relax (yang/yin)</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
+</tr>
+<tr>
+<td><time>11:20</time> - <time>12:35</time></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Yin Yoga en Yoga Nidra</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
 <td class="day">zondag</td>
