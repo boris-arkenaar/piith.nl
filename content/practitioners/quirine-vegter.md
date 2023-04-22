@@ -5,7 +5,7 @@ activities:
   - Feng Shui
 company: Beautiful Spirits Studio
 companyLink: https://www.beautifulspiritsstudio.nl
-companyLogo: /uploads/2020/01/Oorspr.-grootte-White-and-Orange-Simple-Fine-Dining-Food-Logo.png
+companyLogo: 2020/01/Oorspr.-grootte-White-and-Orange-Simple-Fine-Dining-Food-Logo.png
 name: Quirine Vegter
 showInMenu: true
 menuWeight: 900

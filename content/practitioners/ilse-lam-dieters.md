@@ -4,7 +4,7 @@ activities:
   - Hoopdance
 company: Xtatic Movement
 companyLink: https://xtaticmovement.com/
-companyLogo: /uploads/2022/04/Logo-Xtatic-Movement-transparant-achtergrond.png
+companyLogo: 2022/04/Logo-Xtatic-Movement-transparant-achtergrond.png
 name: Ilse Lam-Dieters
 showInMenu: true
 menuWeight: 600

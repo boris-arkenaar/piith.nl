@@ -4,7 +4,7 @@ activities:
   - Ademcoach
 company: Holistisch Therapeut & Ademcoach
 companyLink: https://www.shivana-niamut.nl
-companyLogo: /uploads/2022/01/shivana.png
+companyLogo: 2022/01/shivana.png
 name: Shivana Niamut
 showInMenu: true
 menuWeight: 700

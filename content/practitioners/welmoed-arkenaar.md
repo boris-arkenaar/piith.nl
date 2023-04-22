@@ -2,7 +2,7 @@
 activities:
   - Oerloop
 company: Oerloop
-companyLogo: /uploads/2013/02/oerloop.png
+companyLogo: 2013/02/oerloop.png
 name: Welmoed Arkenaar
 showInMenu: true
 menuWeight: 200

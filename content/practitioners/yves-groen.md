@@ -3,7 +3,7 @@ activities:
   - Geweldloos communiceren
 company: Loodens
 companyLink: http://loodens.org/bussum
-companyLogo: /uploads/2018/08/Loodens_logo_V1-11.png
+companyLogo: 2018/08/Loodens_logo_V1-11.png
 name: Yves Groen
 showInMenu: true
 menuWeight: 1000

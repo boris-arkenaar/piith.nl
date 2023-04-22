@@ -3,7 +3,7 @@ activities:
   - Psychosomatische Energetica (PSE)
 company: Natuurgeneeskundige praktijk
 companyLink: https://www.renatepeters.nl/
-companyLogo: /uploads/2021/01/image.png
+companyLogo: 2021/01/image.png
 name: Renate Peters
 showInMenu: true
 menuWeight: 800

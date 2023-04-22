@@ -6,7 +6,7 @@ activities:
   - Ademtherapie
 company: Bruis
 companyLink: https://www.ikbruis.nl/
-companyLogo: /uploads/2013/02/Bruis-logo-zonder-tekst.jpg
+companyLogo: 2013/02/Bruis-logo-zonder-tekst.jpg
 name: Esteriek de Heij
 showInMenu: true
 menuWeight: 300

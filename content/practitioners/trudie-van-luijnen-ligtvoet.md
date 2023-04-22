@@ -5,7 +5,7 @@ activities:
   - Dru Yoga
 company: De Paarse Paraplu
 companyLink: https://www.depaarseparaplu.nl/
-companyLogo: /uploads/2021/01/Screenshot-2021-01-15-at-14.58.36.png
+companyLogo: 2021/01/Screenshot-2021-01-15-at-14.58.36.png
 name: Trudie van Luijnen-Ligtvoet
 showInMenu: true
 menuWeight: 400

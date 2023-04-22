@@ -10,7 +10,7 @@ activities:
   - Meditatie
 company: Shiatsu het Gooi
 companyLink: https://shiatsuhetgooi.nl
-companyLogo: /uploads/2013/02/shglogo_naam_vierkant.png
+companyLogo: 2013/02/shglogo_naam_vierkant.png
 name: Luna Westerik
 showInMenu: true
 menuWeight: 100

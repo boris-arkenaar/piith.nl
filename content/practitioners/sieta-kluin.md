@@ -7,7 +7,7 @@ activities:
   - Een los eindje
 company: Vitaliteit & Bewustzijn
 companyLink: https://www.vitaliteitenbewustzijn.nl/
-companyLogo: /uploads/2022/08/Screen-Shot-2022-08-13-at-17.52.39.png
+companyLogo: 2022/08/Screen-Shot-2022-08-13-at-17.52.39.png
 name: Sieta Kluin
 showInMenu: true
 menuWeight: 500
