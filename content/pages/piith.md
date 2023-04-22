@@ -8,7 +8,7 @@ Piith - zeg maar pit.
 
 Eigentijds huis, holistische groepspraktijk voor complementaire geneeskunde, therapie, coaching, lessen, workshops en meditatie.
 
-<figure class="wp-block-image"><img src="http://piith.nl/wp-content/uploads/2023/01/luna-zit-746x497.jpg" alt="" class="wp-image-3011"/><figcaption>-- Fotograaf: Petra van Vliet --<br>Piith verbindt...</figcaption></figure>
+<figure class="wp-block-image"><img src="https://res.cloudinary.com/piith/image/upload/2023/01/luna-zit-746x497.jpg" width="746" height="497" alt="" class="wp-image-3011"/><figcaption>-- Fotograaf: Petra van Vliet --<br>Piith verbindt...</figcaption></figure>
 
 ## Professionele Integratieve Interactieve Therapeuten
 
@@ -40,7 +40,7 @@ Sinds 2022 biedt Piith ruimte aan het levensbeschouwelijk genootschap SoVieJa, w
 
 Spreekt dit je aan, voel je dan uitgenodigd!
 
-<figure class="wp-block-image"><img src="http://piith.nl/wp-content/uploads/2023/01/IMG_0818-746x497.jpeg" alt="" class="wp-image-3013"/><figcaption>-- Fotograaf: Petra van Vliet --<br>…en stroomt</figcaption></figure>
+<figure class="wp-block-image"><img src="https://res.cloudinary.com/piith/image/upload/2023/01/IMG_0818-746x497.jpeg" width="746" height="497" alt="" class="wp-image-3013"/><figcaption>-- Fotograaf: Petra van Vliet --<br>…en stroomt</figcaption></figure>
 
 ## Huren bij Piith
 

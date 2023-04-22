@@ -57,10 +57,15 @@ const MarkdownImage: React.FC<ImageProps> = ({ children, src, ...props }) => {
     dimensionsMap[searchParams.get("dimensions")] ||
     dimensionsMap[Dimensions.MediumLandscape];
 
+  const [sourceWidth, sourceHeight] =
+    searchParams.get("dimensions") === Dimensions.Thumbnail
+      ? [width * 2, height * 2]
+      : [width, height];
+
   return isCloudImage ? (
     <Image
       {...props}
-      loader={getCloudinaryLoader(width, height)}
+      loader={getCloudinaryLoader(sourceWidth, sourceHeight)}
       src={fileName}
       width={width}
       height={height}

@@ -4,7 +4,7 @@ showInTopMenu: true
 menuWeight: 400
 ---
 
-![Kussens in een cirkel](/uploads/2019/01/WhatsApp-Image-2019-01-05-at-16.25.08-746x560.jpeg)
+![Kussens in een cirkel](https://res.cloudinary.com/piith/image/upload/2019/01/WhatsApp-Image-2019-01-05-at-16.25.08.jpeg#dimensions=large-landscape)
 
 ## Persoonsgegevens die wij verwerken
 
@@ -47,4 +47,4 @@ Je hebt altijd het recht om je persoonsgegevens in te zien, te corrigeren of te 
 
 Piith en Shiatsu het Gooi nemen de bescherming van jouw gegevens serieus en nemen passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als je de indruk hebt dat je gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op via [info@piith.nl](mailto:info@piith.nl) of [info@shiatsuhetgooi.nl](mailto:info@shiatsuhetgooi.nl).
 
-![Kussens in de hoek](/uploads/2019/01/WhatsApp-Image-2019-01-05-at-16.25.34-746x577.jpeg)
+![Kussens in de hoek](https://res.cloudinary.com/piith/image/upload/2019/01/WhatsApp-Image-2019-01-05-at-16.25.34.jpeg#dimensions=large-landscape)

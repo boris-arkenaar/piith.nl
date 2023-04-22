@@ -24,11 +24,7 @@ showInLeftMenu: true
 *   [Holistische Therapie](http://piith.nl/wie-doet-wat/shivana-niamut/)
 *   [Ademcoaching](http://piith.nl/wie-doet-wat/shivana-niamut/)
 
-<div class="wp-block-image">
-
-<div class="wp-block-image"><figure class="alignright is-resized"><img src="http://piith.nl/wp-content/uploads/2019/04/Shiatsu_het_Gooi_3251_13-746x500.jpg" alt="" class="wp-image-2368" width="373" height="250"/></figure></div>
-
-</div>
+![](https://res.cloudinary.com/piith/image/upload/2019/04/Shiatsu_het_Gooi_3251_13.jpg#dimensions=medium-landscape&align=right)
 
 <h2 class="what-header">Massage</h2>
 

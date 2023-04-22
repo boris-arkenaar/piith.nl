@@ -7,7 +7,7 @@ menuWeight: 200
 Wil jij ook delen wat je ervaringen zijn met behandelingen, lessen, sessies en workshops in Piith?  
 Mail naar [info@piith.nl](mailto:info@piith.nl).
 
-<figure class="alignright is-resized"><img src="/uploads/2019/02/2018-03-11-12-06-00-600x800.jpg" alt="" class="wp-image-2267" width="300" height="400"/></figure>
+<figure class="alignright is-resized"><img src="https://res.cloudinary.com/piith/image/upload/2019/02/2018-03-11-12-06-00.jpg" alt="" class="wp-image-2267" width="300" height="400"/></figure>
 
 ## Roos – 76 jaar – gepensioneerd anesthesioloog
 
