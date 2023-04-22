@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import { PageData } from "../lib/api";
+import Image from "next/image";
+import { getCloudinaryLoader } from "./markdown-image";
 
 export type LayoutProps = {
   children?: any;
@@ -127,7 +129,13 @@ const Layout: React.FC<LayoutProps> = ({
         </div>
         <div className="social">
           <a href="https://www.facebook.com/piith.zegmaarpit">
-            <img alt="Facebook" src="/facebook.svg" width="32" height="32" />
+            <Image
+              loader={getCloudinaryLoader(64, 64)}
+              src="facebook"
+              alt={`Logo Facebook`}
+              width="32"
+              height="32"
+            />
           </a>
         </div>
       </div>

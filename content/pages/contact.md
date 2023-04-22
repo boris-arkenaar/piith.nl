@@ -14,7 +14,7 @@ Laarderweg 65, hoekje Bijlstraat
 Te bereiken via:  
 [![WhatsApp Logo](https://res.cloudinary.com/piith/image/upload/2013/02/whatsapp.png#dimensions=thumbnail "WhatsApp")](https://wa.me/31629141718) ![Signal Logo](https://res.cloudinary.com/piith/image/upload/2013/02/signal.png#dimensions=thumbnail "Signal") [![Telegram Logo](https://res.cloudinary.com/piith/image/upload/2013/02/telegram.png#dimensions=thumbnail "Telegram")](https://t.me/LunaWesterik)
 
-<img alt="Kaart" width="745" height="350" src="/map.png" />\
+<img alt="Kaart" width="745" height="350" src="https://res.cloudinary.com/piith/image/upload/map" />  
 <small>Kaart bekijken in <a href="https://osm.org/go/0E6ZtM4W-?m=">OpenStreetMaps</a> | <a href="https://goo.gl/maps/a5KTvrL99Wq8Sofv5">Google Maps</a> | <a href="https://maps.apple.com/?address=Laarderweg%2065,%201402%20BD%20Bussum,%20Netherlands&ll=52.269240,5.167380&q=Laarderweg%2065&_ext=EiYpdni+RuMhSkAxMjL3luGjFEA59E3kogkjSkBB+tZYvOmyFEBQBA%3D%3D">Apple Maps</a></small>
 
 ### Auto
