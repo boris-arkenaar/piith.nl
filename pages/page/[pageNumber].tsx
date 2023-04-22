@@ -11,6 +11,7 @@ import {
   getLayoutProps,
 } from "../../lib/api";
 import { processMarkdown } from "../../lib/md";
+import Title from "../../components/title";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const pageNumber = parseInt(
@@ -70,6 +71,7 @@ const Page: React.FC<PageProps> = ({
 
   return (
     <>
+      <Title title="" />
       {processedPosts.map((post) => (
         <ArticleSummary article={post} key={post.id} />
       ))}

@@ -7,6 +7,7 @@ import ArticleNavigation from "../components/article-navigation";
 import { getLayoutProps, getPage, getPageNames, PageData } from "../lib/api";
 import { formatDate } from "../lib/date";
 import { processMarkdown } from "../lib/md";
+import Title from "../components/title";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const sanitizeSchema = deepmerge(defaultSchema, {
@@ -63,12 +64,15 @@ const Page: React.FC<PageProps> = ({ page, sanitizeSchema }) => {
       />
     </>
   ) : (
-    <article>
-      <header>
-        <h1>{page.title}</h1>
-      </header>
-      {processedContent}
-    </article>
+    <>
+      <Title title={page.title} />
+      <article>
+        <header>
+          <h1>{page.title}</h1>
+        </header>
+        {processedContent}
+      </article>
+    </>
   );
 };
 

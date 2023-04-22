@@ -1,5 +1,5 @@
 ---
-title: Piith – zeg maar pit
+title: Piith | Professionele Integratieve Interactieve Therapeuten
 ---
 
 <figure class="align-right">

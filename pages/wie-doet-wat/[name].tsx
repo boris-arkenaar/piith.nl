@@ -13,6 +13,7 @@ import {
   PractitionerData,
 } from "../../lib/api";
 import { processMarkdown } from "../../lib/md";
+import Title from "../../components/title";
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const sanitizeSchema = deepmerge(defaultSchema, {
@@ -59,6 +60,7 @@ const Practitioner: React.FC<PractitionerProps> = ({
 
   return (
     <>
+      <Title title={practitioner.name} />
       <PractitionerNavigation practitioners={practitioners} />
       <article>
         <header>
