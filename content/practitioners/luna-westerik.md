@@ -93,7 +93,7 @@ Vanaf 2017 ben ik niet meer aangesloten bij een beroepsvereniging, en dus ook ni
 Vanwege mijn sterk verlaagde tarieven die hierdoor mogelijk geworden zijn, krijg je in feite van mij de vergoeding die je anders van je zorgverzekering uit de aanvullende verzekering zou krijgen, want een Basic behandeling had eigenlijk al €100 moeten zijn, maar is via de 3-rittenkaart slechts €55.  
 En je bent nóg goedkoper uit en bovendien vrij in je keuze als je je niet aanvullend verzekert.
 
-Meer info op [Shiatsu het Gooi](http://www.shiatsuhetgooi.nl).
+Meer info op [Shiatsu het Gooi](https://www.shiatsuhetgooi.nl).
 
 ## Via Luna
 
