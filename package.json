@@ -10,7 +10,7 @@
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test-all": "yarn lint && yarn type-check",
-    "import": "nodemon --watch scripts scripts/import.mjs",
+    "import": "nodemon --watch scripts scripts/images.mjs",
     "postinstall": "husky install"
   },
   "lint-staged": {

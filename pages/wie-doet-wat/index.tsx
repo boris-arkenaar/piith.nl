@@ -55,7 +55,7 @@ const Practitioners: React.FC<PageProps> = ({
           <h2 className="who-header">
             <Link href={`/wie-doet-wat/${practitioner.id}`}>
               <PractitionerLogo
-                className="alignleft who-logo"
+                className="alignleft"
                 practitioner={practitioner}
               />
               {practitioner.name}

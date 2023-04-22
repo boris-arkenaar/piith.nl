@@ -114,3 +114,19 @@ Mail naar [info@piith.nl](mailto:info@piith.nl).
 ## Onno – 58 jaar – bestuurder/toezichthouder in financiële sector
 
 > Na een vakkundige en aangename **Shiatsumassage** van Luna ben je totaal ontstresst, ontspannen en weer superfit! Kan het iedereen aanbevelen!
+
+## Rob Beenker – 65 jaar – shiatsutherapeut
+
+> Als collega shiatsu therapeut wissel ik regelmatig uit met collega’s, en  met 30 jaar ervaring in het vak kan ik gerust zeggen dat ik snel doorheb  wat voor vlees ik in de kuip heb.  
+>  
+> Je behandeling  ervoer ik als prettig zacht, met een enorme diepgang. Nu ik weer thuis  ben is er van de ribkneuzing die ik 2½ week geleden opliep bijna niets  meer te voelen. Dat terwijl ik daar de afgelopen dagen nog danig last  van had!  
+>  
+> De kneuzingen in mijn enkel en knie zijn  juist duidelijker voelbaar, in de zin dat ik voel dat mijn lichaam daar  werkt aan zijn herstel.  
+>  
+> Ik hoop het komende winterseizoen weer volop te kunnen schaatsen en mijn werk op de futon weer probleemloos te kunnen doen.  
+>  
+> Ik kom graag weer bij je terug. We houden contact!
+
+## Yvette – 55 jaar – directiesecretaresse
+
+> Een Shiatsu, het is als toveren.

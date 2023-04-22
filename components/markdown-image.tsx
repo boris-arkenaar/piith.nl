@@ -20,12 +20,12 @@ export enum Align {
 
 export const dimensionsMap = {
   [Dimensions.Thumbnail]: [48, 48],
-  [Dimensions.SmallLandscape]: [133, 75],
-  [Dimensions.SmallPortrait]: [42, 75],
-  [Dimensions.MediumLandscape]: [320, 180],
-  [Dimensions.MediumPortrait]: [101, 180],
-  [Dimensions.LargeLandscape]: [745, 419],
-  [Dimensions.LargePortrait]: [236, 419],
+  [Dimensions.SmallLandscape]: [133, 100],
+  [Dimensions.SmallPortrait]: [100, 133],
+  [Dimensions.MediumLandscape]: [320, 240],
+  [Dimensions.MediumPortrait]: [240, 320],
+  [Dimensions.LargeLandscape]: [745, 559],
+  [Dimensions.LargePortrait]: [559, 745],
 };
 
 const getSearchParams = (url: string) => {

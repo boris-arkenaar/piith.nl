@@ -267,19 +267,14 @@ table {
 
 figure {
   max-width: 100%;
-  border: 1px solid #ddd;
-  text-align: center;
-  background-color: #f3f3f3;
-  padding: 0 4px;
-  margin: 0.5em;
-  border-radius: 3px;
+  margin: 0 0 0.5em;
 }
 figcaption {
   color: #757575;
   font-size: 0.8em;
   line-height: 1.5em;
-  padding: 0 4px 5px;
-  margin: 0;
+  text-align: center;
+  margin: .5em 0 1em;
 }
 
 .aligncenter,
@@ -288,20 +283,21 @@ img[src*="#center"],
 img[src*="align=center"] {
   display: block;
   margin: 0.5em auto;
+  text-align: center;
 }
 .alignleft,
 .align-left,
 img[src*="#left"],
 img[src*="align=left"] {
   float: left;
-  margin: 0.5em 1em 0.5em 0;
+  margin: 1em 1em 1em 0;
 }
 .alignright,
 .align-right,
 img[src*="#right"],
 img[src*="align=right"] {
   float: right;
-  margin: 0.5em 0 0.5em 1em;
+  margin: 1em 0 1em 1em;
 }
 
 /**
@@ -383,8 +379,6 @@ img[src*="align=right"] {
 }
 #mainContent .who-header {
   margin: 0;
-}
-.who-logo {
   clear: both;
 }
 .who-list {
