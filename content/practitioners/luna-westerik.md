@@ -90,7 +90,7 @@ Een Vip-behandeling is als een Basic, maar dan langer en uitgebreider, klachtger
 
 Vrije vogel  
 Vanaf 2017 ben ik niet meer aangesloten bij een beroepsvereniging, en dus ook niet bij de zorgverzekeraars, omdat ik niet beperkt wil worden door de steeds stringentere eisen, maar liever onafhankelijk ben en vrij in de uitoefening van mijn beroep.  
-Vanwege mijn sterk verlaagde tarieven die hierdoor mogelijk geworden zijn, krijg je in feite van mij de vergoeding die je anders van je zorgverzekering uit de aanvullende verzekering zou krijgen, want een Basic behandeling had eigenlijk al €100 moeten zijn, maar is via de 3-rittenkaart slechts €55.  
+Vanwege mijn sterk verlaagde tarieven die hierdoor mogelijk geworden zijn, krijg je in feite van mij de vergoeding die je anders van je zorgverzekering uit de aanvullende verzekering zou krijgen, want een Basic behandeling had eigenlijk meer dan €100 moeten zijn, maar is via de 3-rittenkaart slechts €65.  
 En je bent nóg goedkoper uit en bovendien vrij in je keuze als je je niet aanvullend verzekert.
 
 Meer info op [Shiatsu het Gooi](https://www.shiatsuhetgooi.nl).
