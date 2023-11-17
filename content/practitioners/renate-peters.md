@@ -2,7 +2,6 @@
 activities:
   - Psychosomatische Energetica (PSE)
 company: Natuurgeneeskundige praktijk
-companyLink: https://www.renatepeters.nl/
 companyLogo: 2021/01/image.png
 name: Renate Peters
 showInMenu: true
@@ -24,4 +23,3 @@ Renate Peters komt uit Sneek en werkt als Energietherapeut met de PSE. 
 Om bereikbaar te zijn voor mensen uit het midden en zuiden van het land reist Renate graag eens per maand af naar Bussum om bij Piith cliënten te ontvangen voor behandeling.  
 Elke eerste donderdag van de maand is Renate in Piith.
 
-Kijk op [de website van Renate](https://www.renatepeters.nl) voor meer info en op de [contactpagina](https://www.renatepeters.nl/contact) van de website. Ook als je een afspraak wilt maken.
