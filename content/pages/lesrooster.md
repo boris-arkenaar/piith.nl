@@ -40,17 +40,19 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
-<td class="day" rowspan="3">woensdag</td>
+<td class="day">woensdag</td>
 <td><time>13:30</time> - <time>16:00</time></td>
 <td><a href="/wie-doet-wat/luna-westerik/">Creatief</a></td>
 <td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
 </tr>
 <tr>
+<td class="day-description">even weken</td>
 <td><time>19:30</time> - <time>22:00</time></td>
 <td><a href="/wie-doet-wat/luna-westerik/">Verbindingscirkel</a></td>
 <td><a href="/wie-doet-wat/yves-groen/">Yves</a></td>
 </tr>
 <tr>
+<td class="day-description">oneven weken</td>
 <td><time>20:00</time> - <time>21:30</time></td>
 <td>Meditatie</td>
 <td>Louise</td>
@@ -80,12 +82,13 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
-<td class="day" rowspan="2">zondag</td>
+<td class="day">zondag</td>
 <td><time datetime="08:30">&nbsp;8:30</time> - <time>10:00</time></td>
 <td><a href="/wie-doet-wat/welmoed-arkenaar">Oerloop</a></td>
 <td><a href="/wie-doet-wat/welmoed-arkenaar/">Welmoed</a></td>
 </tr>
 <tr>
+<td class="day-description">1x / maand</td>
 <td><time datetime="09:00">&nbsp;9:00</time> - <time>12:30</time></td>
 <td>Klankligconcert</td>
 <td>Judith</td>

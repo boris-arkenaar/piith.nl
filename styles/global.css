@@ -363,6 +363,10 @@ img[src*="align=right"] {
 .schedule .day {
   text-align: right;
 }
+.schedule .day-description {
+  text-align: right;
+  color: #666;
+}
 
 /**
  * An overview of what there is to do.
