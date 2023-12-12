@@ -20,7 +20,6 @@ showInLeftMenu: true
 *   [Personal Yoga](/wie-doet-wat/esteriek-de-heij/#personal)
 *   [Handanalyse/Gelaatkunde](/wie-doet-wat/luna-westerik/#handanalyse)
 *   [Ouder- en kindercoaching](/wie-doet-wat/anna-de-graaf-van-waveren/)
-*   [Psychosomatische Energetica (PSE)](/wie-doet-wat/renate-peters/)
 *   [Holistische Therapie](/wie-doet-wat/shivana-niamut/)
 *   [Ademcoaching](/wie-doet-wat/shivana-niamut/)
 
