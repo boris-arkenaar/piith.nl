@@ -89,7 +89,7 @@ menuWeight: 100
 </tr>
 <tr>
 <td class="day-description">1x / maand</td>
-<td><time datetime="09:00">&nbsp;9:00</time> - <time>12:30</time></td>
+<td><time>10:30</time> - <time>11:30</time></td>
 <td>Klankligconcert</td>
 <td>Judith</td>
 </tr>
