@@ -53,7 +53,7 @@ menuWeight: 100
 </tr>
 <tr>
 <td class="day-description">oneven weken</td>
-<td><time>20:00</time> - <time>21:30</time></td>
+<td><time>19:30</time> - <time>21:15</time></td>
 <td>Meditatie</td>
 <td>Louise</td>
 </tr>
