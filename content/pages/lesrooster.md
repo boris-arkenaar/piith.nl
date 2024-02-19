@@ -18,10 +18,15 @@ menuWeight: 100
 </thead>
 <tbody>
 <tr>
-<td class="day">maandag</td>
+<td class="day" rowspan="2">maandag</td>
 <td><time>19:00</time> - <time>20:15</time></td>
 <td><a href="/wie-doet-wat/trudie-van-luijnen-ligtvoet/">Yin Yoga</a></td>
 <td><a href="/wie-doet-wat/trudie-van-luijnen-ligtvoet/">Trudie</a></td>
+</tr>
+<tr>
+<td><time>20:30</time> - <time>21:30</time></td>
+<td><a href="/wie-doet-wat/sophie-de-winter/">Meditatie</a></td>
+<td><a href="/wie-doet-wat/sophie-de-winter/">Sophie de Winter</a></td>
 </tr>
 <tr>
 <td class="day" rowspan="3">dinsdag</td>
@@ -89,7 +94,7 @@ menuWeight: 100
 </tr>
 <tr>
 <td class="day-description">1x / maand</td>
-<td><time>10:30</time> - <time>11:30</time></td>
+<td><time datetime="09:30">&nbsp;9:30</time> - <time>10:30</time></td>
 <td>Klankligconcert</td>
 <td>Judith</td>
 </tr>
