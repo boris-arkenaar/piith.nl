@@ -75,7 +75,7 @@ const Layout: React.FC<LayoutProps> = ({
         </nav>
         <div id="mc_embed_signup" className="newsletter-widget">
           <form
-            action="https://piith.us7.list-manage1.com/subscribe/post?u=8f3a33283f070bfde53fa0d38&amp;id=1c635e357f"
+            action="https://piith.us7.list-manage.com/subscribe/post?u=8f3a33283f070bfde53fa0d38&amp;id=1c635e357f&amp;f_id=0085d8e4f0"
             method="post"
             id="mc-embedded-subscribe-form"
             name="mc-embedded-subscribe-form"
@@ -85,7 +85,7 @@ const Layout: React.FC<LayoutProps> = ({
           >
             <h1>Schrijf je in voor de Piith-noot, nieuwsbrief</h1>
             <div className="mc-field-group">
-              <label htmlFor="mce-EMAIL">Naam </label>
+              <label htmlFor="mce-NAME">Naam </label>
               <input
                 type="text"
                 defaultValue=""
