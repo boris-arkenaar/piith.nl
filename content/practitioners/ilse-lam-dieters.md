@@ -10,7 +10,7 @@ showInMenu: true
 menuWeight: 600
 ---
 
-[**Xtatic Movement**](http://www.xtaticmovement.com/) **staat voor belichaming, flow en spelen**  
+[**Xtatic Movement**](https://www.xtaticmovement.com/) **staat voor belichaming, flow en spelen**  
 Het wijst naar de beleving van overgave en bewegen in het hier en nu. Simpelweg ‘zijn’ met alles wat het huidige moment jouw te bieden heeft… Dat kan je in overeenstemming brengen met vreugde, rust, bevrijding, liefde en inspiratie. In de ruimte die ontstaat kunnen harmoniserende en helende processen hun werk te doen.
 
 ## Xtatic Yoga
@@ -35,6 +35,6 @@ Als (hoogsensitief) kind was ik al geïnteresseerd in het spirituele. Vanaf mijn
 
 De combinatie van werk, moederschap en een steeds intensievere beoefening vroeg om een andere aanpak. Mijn toewijding op het spirituele pad nam toe en de diepe wens om te delen en behulpzaam te zijn voor anderen werd sterker. Daarom besloot ik een zelfstandige onderneming op te richten.
 
-Na afronding van ‘The Functional Yoga Teacher Training’ (Functional Vinyasa & Hatha Yoga) ben ik meteen yogalessen gaan geven vanuit mijn onderneming. Ik was er klaar voor en het voelt ontzettend goed en kloppend voor mij. Het toen nog: ’Xtatic hoopdance’ werd: ‘Xtatic Movement’. Ik geef naast [Yoga](https://xtaticmovement.com/yoga/) dus ook [Hoopdance](https://xtaticmovement.com/cursussen-2/) lessen in Bussum en in Amsterdam. Wil je meer weten? Lees dan even door op [mijn website](http://www.xtaticmovement.com/) en voor een _**proefles**_ kun je [jouw aanmelding doorgeven.](https://xtaticmovement.com/contact/)
+Na afronding van ‘The Functional Yoga Teacher Training’ (Functional Vinyasa & Hatha Yoga) ben ik meteen yogalessen gaan geven vanuit mijn onderneming. Ik was er klaar voor en het voelt ontzettend goed en kloppend voor mij. Het toen nog: ’Xtatic hoopdance’ werd: ‘Xtatic Movement’. Ik geef naast [Yoga](https://xtaticmovement.com/yoga/) dus ook [Hoopdance](https://xtaticmovement.com/cursussen-2/) lessen in Bussum en in Amsterdam. Wil je meer weten? Lees dan even door op [mijn website](https://www.xtaticmovement.com/) en voor een _**proefles**_ kun je [jouw aanmelding doorgeven.](https://xtaticmovement.com/contact/)
 
 <figure class="wp-block-image is-resized"><img src="https://res.cloudinary.com/piith/image/upload/2022/04/twisted-dragon-7ECDC270-9949-4918-BB19-51E7DC682B91_1_201_a.jpg" alt="foto Ilse in twisted dragon" class="wp-image-2961" width="560" height="420"/><figcaption>Foto’s gemaakt door: Dana Marshall, visual artist</figcaption></figure>

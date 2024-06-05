@@ -170,7 +170,7 @@ De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar
 
 Als je naast de Do-in lessen ook aan de [Oerloop](/wie-doet-wat/welmoed-arkenaar) meedoet, dan gun je jezelf een slimme combinatie van binnen- en buitenspelen voor volwassenen!
 
-Meer info over [Do-in](http://shiatsuhetgooi.nl/do-in).
+Meer info over [Do-in](https://shiatsuhetgooi.nl/do-in).
 
 ## <a id="japanse-gezichtsmassage" class="anchor"></a>Japanse Gezichtsmassage
 
@@ -190,7 +190,7 @@ Een 3-rittenkaart is €195.
 Wil je een behandeling in de avonduren dan kost dat €10 extra.  
 De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar bij de vergelijkbare behandelingen en privélessen, restitutie van niet gebruikte ritten is niet mogelijk._
 
-Meer info over [Japanse Gezichtsmassage](http://shiatsuhetgooi.nl/japanse-gezichtsmassage).
+Meer info over [Japanse Gezichtsmassage](https://shiatsuhetgooi.nl/japanse-gezichtsmassage).
 
 ## <a id="gezichtsyoga" class="anchor"></a>GezichtsYoga
 
