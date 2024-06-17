@@ -24,7 +24,7 @@ Met mijn ervaring als coach, therapeut en trainer heb ik veel mensen begeleid bi
 2. Je leert hoe je een gesprek kunt leiden zodat je met elkaar op zoek gaat naar hetgeen jullie allebei willen, in plaats van de focus te richten op het verschil van mening.
 3. Je leert hoe je door het stellen van vragen de ander kunt laten verzachten zodat er weer ruimte komt voor verbinding en harmonie. 
 
-Ik heb een nieuwe cursusdag ontwikkelt waarin je met een kleine groep van maximaal 6 deelnemers deze drie dingen kunt leren. In een veilige setting kun je je persoonlijke situatie vertellen en leer je de theorie en oefen je met de technieken. Na de cursus ga je met een buddy uit de groep dit nog een tijdje oefenen totdat je het onder de knie hebt. Pas daarna ga je het toepassen in je eigen situatie; in je relatie, familie of vriendenkring.
+Ik heb een nieuwe cursusdag ontwikkeld waarin je met een kleine groep van maximaal 6 deelnemers deze drie dingen kunt leren. In een veilige setting kun je je persoonlijke situatie vertellen en leer je de theorie en oefen je met de technieken. Na de cursus ga je met een buddy uit de groep dit nog een tijdje oefenen totdat je het onder de knie hebt. Pas daarna ga je het toepassen in je eigen situatie; in je relatie, familie of vriendenkring.
 
 Op deze manier leer je de technieken op een veilige en verantwoorde manier. En kun je met zelfvertrouwen en voldoende ervaring gaan toepassen wat je geleerd hebt.
 

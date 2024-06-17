@@ -7,7 +7,7 @@ alias: /gooi-in-verbinding/
 Vanaf het prille begin - zomer 2021 - is Piith nauw verbonden met de geboorte, groei, ontwikkeling en activiteiten van Gooi in Verbinding.
 
 Waarom Gooi in Verbinding?\
-Wij willen een praktisch bijdrage leveren aan een mooiere wereld voor onze kinderen. Een wereld waarin we meer naar onze eigen waarden kunnen leven. Waarin we als lokaal georganiseerde gemeenschap elkaar helpen basisbehoeften te vervullen. We zijn dus geen protestbeweging, maar een constructieve vereniging van gelijkgestemden die economische en maatschappelijke projecten willen realiseren waar wijzelf en anderen van zeggen: "Wow, wat mooi dat dit er is".
+Wij willen een praktische bijdrage leveren aan een mooiere wereld voor onze kinderen. Een wereld waarin we meer naar onze eigen waarden kunnen leven. Waarin we als lokaal georganiseerde gemeenschap elkaar helpen basisbehoeften te vervullen. We zijn dus geen protestbeweging, maar een constructieve vereniging van gelijkgestemden die economische en maatschappelijke projecten willen realiseren waar wijzelf en anderen van zeggen: "Wow, wat mooi dat dit er is".
 
 Misschien ben je al eens op een "Natuurlijk Gezond Festival" geweest, zondag 2 juni is er weer eentje in Blaricum. Of heb je het "Vitaal Voedsel Festival" bezocht, zoals die van afgelopen zomer in Naarden.
 
@@ -21,5 +21,3 @@ Wil je juist wél graag meepraten, -denken en -doen? Dat gebeurt allemaal op Zul
 Geef je dan op door een mailtje te sturen naar [zulip@gooiinverbinding.nl](mailto:zulip@gooiinverbinding.nl).
 
 ![Bouw mee!](https://res.cloudinary.com/piith/image/upload/2024/06/2024-05-27-09-56-43-569#dimensions=large-landscape&align=center)
-
-![Meld je aan](https://res.cloudinary.com/piith/image/upload/2024/06/2024-05-27-10-02-33-343#dimensions=large-landscape&align=center)
