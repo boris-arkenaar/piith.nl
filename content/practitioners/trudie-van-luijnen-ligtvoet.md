@@ -25,14 +25,14 @@ Yoga gaat over bewustwording, zien en voelen wie je werkelijk bent.
 
 In de Yin en Yang-Yin yoga (in die volgorde) lessen die ik geef is er aandacht voor ademhaling, spierkracht maar ook voor ontspanning en verstilling.
 
-### Dru yoga miv 14 september 2022
+### Dru yoga
 
 Dru Yoga is anders dan andere vormen van yoga, omdat het sequenties, houdingen en stretches ontwikkeld heeft met veel aandacht voor kernstabiliteit en de rug en de krachtige energie van het hart.  
 Energetisch zijn er In de stroom van de bewegingen stiltepunten, waarin die energie krachtig voelbaar kan zijn. Je ontwikkelt een dieper bewustzijn van de stilte in jezelf en het energieveld om je heen
 
 Bij mijn dru yoga lessen beweeg je rustig en met aandacht. Iedereen doet de les mee op zijn/haar niveau.
 
-### Verwacht: Zwangerschapsyoga najaar 2022
+### Zwangerschapsyoga
 
 Bij al mijn lessen kun je rekenen op persoonlijke aandacht in een ontspannen sfeer.
 

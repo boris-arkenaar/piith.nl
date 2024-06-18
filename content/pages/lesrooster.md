@@ -92,12 +92,6 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/welmoed-arkenaar">Oerloop</a></td>
 <td><a href="/wie-doet-wat/welmoed-arkenaar/">Welmoed</a></td>
 </tr>
-<tr>
-<td class="day-description">1x / maand</td>
-<td><time datetime="09:30">&nbsp;9:30</time> - <time>10:30</time></td>
-<td>Klankligconcert</td>
-<td>Judith</td>
-</tr>
 </tbody>
 </table>
 

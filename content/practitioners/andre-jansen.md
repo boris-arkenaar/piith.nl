@@ -3,6 +3,7 @@ activities:
   - Trauma coaching
 company: André Jansen
 companyLink: https://andrejansen.org
+companyLogo: 2024/06/Screenshot_2024-06-05_at_14.06.43
 name: André Jansen
 showInMenu: true
 menuWeight: 900

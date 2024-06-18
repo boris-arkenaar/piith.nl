@@ -1,6 +1,7 @@
 ---
 activities:
   - Meditatie
+  - Aurareading en -healing
 company: Sophie de Winter
 companyLink: https://sophiedewinter.nl/
 companyLogo: 2024/02/Profielfoto23_vriekant.jpg
