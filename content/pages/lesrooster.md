@@ -26,7 +26,7 @@ menuWeight: 100
 <tr>
 <td><time>20:30</time> - <time>21:30</time></td>
 <td><a href="/wie-doet-wat/sophie-de-winter/">Meditatie</a></td>
-<td><a href="/wie-doet-wat/sophie-de-winter/">Sophie de Winter</a></td>
+<td><a href="/wie-doet-wat/sophie-de-winter/">Sophie</a></td>
 </tr>
 <tr>
 <td class="day" rowspan="3">dinsdag</td>
@@ -53,8 +53,8 @@ menuWeight: 100
 <tr>
 <td class="day-description">even weken</td>
 <td><time>19:30</time> - <time>22:00</time></td>
-<td><a href="/wie-doet-wat/luna-westerik/">Verbindingscirkel</a></td>
-<td><a href="/wie-doet-wat/yves-groen/">Yves</a></td>
+<td><a href="/wie-doet-wat/luna-westerik/">Gooi in Verbinding</a></td>
+<td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
 </tr>
 <tr>
 <td class="day-description">oneven weken</td>
