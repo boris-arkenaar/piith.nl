@@ -48,7 +48,7 @@ Personal yoga 75 minuten €60.
 
 Voor meer info of een afspraak bel 06-48315998 of mail [info@ikbruis.nl](mailto:info@ikbruis.nl)
 
-## Over adem coaching
+## <a id="adem-coaching" class="anchor mce-item-anchor"></a>Over adem coaching
 
 Veel mensen ademen niet op de juiste manier, waardoor ze allerlei klachten krijgen. Pijn in nek en schouders, gejaagdheid, vaak zuchten of gapen, hartkloppingen en snel vermoeid zijn, zijn daar voorbeelden van. Een ontregelde ademhaling heeft alles te maken met spanning, stress en vastzittende emoties. Dit kan ook onbewust meespelen, dus zonder dat we het zelf doorhebben! Door die spanning raakt de ademhaling op een bepaalde manier beperkt, waardoor je minder vrij kunt ademen en daardoor ga je oppervlakkiger en sneller ademen. Deze manier van ademen levert allerlei klachten op: van spierpijn tot chronische hyperventilatie en/of paniekaanvallen.
 

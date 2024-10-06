@@ -140,7 +140,7 @@ const Layout: React.FC<LayoutProps> = ({
         </div>
       </div>
       <div id="mainFooter">
-        <p className="copyright">© 2013–2023 Piith</p>
+        <p className="copyright">© 2013–2025 Piith</p>
       </div>
     </div>
   ) : (

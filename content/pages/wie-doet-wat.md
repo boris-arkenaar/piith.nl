@@ -16,12 +16,10 @@ showInLeftMenu: true
 
 *   [Life Coaching](/wie-doet-wat/esteriek-de-heij/#personal)
 *   [Shiatsutherapie](/wie-doet-wat/luna-westerik/#shiatsutherapie)
-*   [Ademtherapie](/wie-doet-wat/esteriek-de-heij/#adem-coaching)
+*   [Adem coaching](/wie-doet-wat/esteriek-de-heij/#adem-coaching)
 *   [Personal Yoga](/wie-doet-wat/esteriek-de-heij/#personal)
 *   [Handanalyse/Gelaatkunde](/wie-doet-wat/luna-westerik/#handanalyse)
-*   [Ouder- en kindercoaching](/wie-doet-wat/anna-de-graaf-van-waveren/)
-*   [Holistische Therapie](/wie-doet-wat/shivana-niamut/)
-*   [Ademcoaching](/wie-doet-wat/shivana-niamut/)
+*   Coaching ouder, kind en baby
 
 ![](https://res.cloudinary.com/piith/image/upload/2019/04/Shiatsu_het_Gooi_3251_13.jpg#dimensions=medium-landscape&align=right)
 
@@ -29,13 +27,9 @@ showInLeftMenu: true
 
 *   [Shiatsu/Thai-Yoga](/wie-doet-wat/luna-westerik/#shiatsutherapie)
 *   [Japanse Gezichtsmassage](/wie-doet-wat/luna-westerik/#japanse-gezichtsmassage)
-*   [Ayurvedische hoofdmassage](/wie-doet-wat/sieta-kluin/)
-*   [AromaTouch massage](/wie-doet-wat/sieta-kluin/)
 
 <h2 class="what-header">Workshops</h2>
 
 *   [GezichtsYoga](/wie-doet-wat/luna-westerik/#gezichtsyoga)
-*   [Reiki](/wie-doet-wat/quirine-vegter/)
-*   [Feng Shui](/wie-doet-wat/quirine-vegter/)
+*   Reiki
 *   [Zielenkaarten](/wie-doet-wat/luna-westerik/#zielenkaarten)
-*   [Geweldloos Communiceren](/wie-doet-wat/yves-groen/)

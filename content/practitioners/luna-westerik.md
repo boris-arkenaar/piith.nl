@@ -81,8 +81,8 @@ Laat de beperkende gedachte 'wordt niet vergoed, dus kan niet' los.
 De meeste complementair opgeleide heilzame harde werkers (waaronder ik) bieden ruimte aan minder draagkrachtigen om toch een behandeling te krijgen.   
 Neem contact met mij op en we gaan samen kijken wat er mogelijk  is.
 
-_Basic behandeling uur €75, Vip behandeling anderhalf uur €95, Kind 3 kwartier €60.  
-Een 3-rittenkaart: Basic €195, Vip €260, Kind €150.  
+_Basic behandeling uur €80, Vip behandeling anderhalf uur €95, Kind 3 kwartier €60.  
+Een 3-rittenkaart: Basic €210, Vip €260, Kind €150.  
 Wil je een behandeling in de avonduren dan kost dat €10 extra.  
 De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar bij de vergelijkbare behandelingen en privélessen, restitutie van niet gebruikte ritten is niet mogelijk._
 
@@ -90,7 +90,7 @@ Een Vip-behandeling is als een Basic, maar dan langer en uitgebreider, klachtger
 
 Vrije vogel  
 Vanaf 2017 ben ik niet meer aangesloten bij een beroepsvereniging, en dus ook niet bij de zorgverzekeraars, omdat ik niet beperkt wil worden door de steeds stringentere eisen, maar liever onafhankelijk ben en vrij in de uitoefening van mijn beroep.  
-Vanwege mijn sterk verlaagde tarieven die hierdoor mogelijk geworden zijn, krijg je in feite van mij de vergoeding die je anders van je zorgverzekering uit de aanvullende verzekering zou krijgen, want een Basic behandeling had eigenlijk meer dan €100 moeten zijn, maar is via de 3-rittenkaart slechts €65.  
+Vanwege mijn sterk verlaagde tarieven die hierdoor mogelijk geworden zijn, krijg je in feite van mij de vergoeding die je anders van je zorgverzekering uit de aanvullende verzekering zou krijgen, want een Basic behandeling had eigenlijk meer dan €100 moeten zijn, maar is via de 3-rittenkaart slechts €70.  
 En je bent nóg goedkoper uit en bovendien vrij in je keuze als je je niet aanvullend verzekert.
 
 Meer info op [Shiatsu het Gooi](https://www.shiatsuhetgooi.nl).
@@ -160,12 +160,12 @@ Straks kan je je hierop abonneren. Dit is nog in ontwikkeling.
 
 Doe-het-zelf-shiatsu, een Oosterse bewegingsleer, Chinese Yoga, Yin-Yang Yoga. Met spelenderwijs wat uitleg over de vijf elementen.  
 Leuk, prettig, makkelijk en met een kleine groep. Het gaat om jouw grenzen dus iedereen kan meedoen.  
-Elke vrijdagochtend om 10 uur. Bij voldoende belangstelling kan het ook op andere momenten.  
+Elke dinsdagochtend om 10 uur. Bij voldoende belangstelling kan het ook op andere momenten.  
 Inloop vanaf een kwartier voor aanvang lessen.  
 Geef je op bij Luna, 06-29141718 of [info@piith.nl](mailto:info@piith.nl).
 
 _Een les duurt anderhalf uur inclusief kopje thee en kost €15, een 10-rittenkaart €120.  
-Privéles is ook mogelijk, die kost €65, een 3-rittenkaart €165.  
+Privéles is ook mogelijk, die kost €80, een 3-rittenkaart €210.  
 De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar bij de vergelijkbare lessen, restitutie van niet gebruikte ritten is niet mogelijk._
 
 Als je naast de Do-in lessen ook aan de [Oerloop](/wie-doet-wat/welmoed-arkenaar) meedoet, dan gun je jezelf een slimme combinatie van binnen- en buitenspelen voor volwassenen!
@@ -185,8 +185,8 @@ Met Japanse Gezichtsmassage, ontwikkeld vanuit de shiatsutherapie, kan ik daar e
 Je gaat letterlijk lekkerder in je vel zitten en dat zie je!  
 En vanzelfsprekend werk ik met een eigen mix van zuivere olie zonder nare dingen erin.
 
-_Een behandeling van een uur kost €75.  
-Een 3-rittenkaart is €195.  
+_Een behandeling van een uur kost €80.  
+Een 3-rittenkaart is €210.  
 Wil je een behandeling in de avonduren dan kost dat €10 extra.  
 De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar bij de vergelijkbare behandelingen en privélessen, restitutie van niet gebruikte ritten is niet mogelijk._
 
@@ -211,12 +211,12 @@ Orale massage? Ja, en dat is precies wat wij tijdens de les óók doen!
 Heel geschikt voor acteurs, zangers, representatieve of openbare functies en voor iedereen die graag zijn strakke masker laat vallen!  
 Goed voor alle leeftijden en zowel mannen als vrouwen.
 
-Elke zaterdagochtend om 9 uur. Bij voldoende belangstelling kan het ook op andere momenten.  
+Deze lessen worden gegeven op aanvraag of bij voldoende belangstelling.  
 Inloop vanaf een kwartier voor aanvang lessen.  
 Geef je op bij Luna, 06-29141718 of [info@piith.nl](mailto:info@piith.nl).
 
 _Een les duurt anderhalf uur inclusief kopje thee en kost_ _€15, 10-rittenkaart €120.  
-Privéles is mogelijk voor €65, 3-rittenkaart €165.  
+Privéles is mogelijk voor €80, 3-rittenkaart €210.  
 De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar bij de vergelijkbare lessen, restitutie van niet gebruikte ritten is niet mogelijk._
 
 _Ook is er de cursus van 5 dagdelen voor €400 pp, waarbij een dagdeel dan zo'n 2 tot 2,5 uur duurt.  
@@ -244,7 +244,7 @@ Of om een bevestiging te zien van wie je bent en wat je wilt.
 In 2017 heb ik **gelaatkunde/karakterdiagnostiek** bij Margot van de Plas in Den Bosch afgerond.  
 Deze kennis neem ik mee in de handanalyse, wat een boeiende combinatie biedt!
 
-_Voor een uitgebreide handanalyse die zo'n anderhalf á twee uur duurt, vraag ik €75._
+_Voor een uitgebreide handanalyse die zo'n anderhalf á twee uur duurt, vraag ik €110._
 
 Wil je het ook eens proberen, neem dan contact op met Luna, 06-29141718 of [info@piith.nl](mailto:info@piith.nl).
 
