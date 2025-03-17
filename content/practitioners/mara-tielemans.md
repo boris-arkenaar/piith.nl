@@ -2,6 +2,7 @@
 activities:
   - Fysiotherapie
 name: Mara Tielemans
+companyLogo: 2024/10/mara-tielemans.jpg
 showInMenu: true
 menuWeight: 1800
 ---
