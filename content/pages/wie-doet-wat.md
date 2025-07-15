@@ -7,8 +7,7 @@ showInLeftMenu: true
 <h2 class="what-header">Yoga – training – groepslessen</h2>
 
 *   [Hatha Yoga Flow](/wie-doet-wat/esteriek-de-heij/#hatha-yoga) en [Relax Yoga](/wie-doet-wat/esteriek-de-heij/#relax-yoga)
-*   [Hatha Yoga](/wie-doet-wat/ellen-van-gelder)
-*   [Yang-Yin Yoga, Yin Yoga, Dru Yoga](/wie-doet-wat/trudie-van-luijnen-ligtvoet/) en [Do-in](/wie-doet-wat/luna-westerik/#do-in)
+*   [Do-in](/wie-doet-wat/luna-westerik/#do-in)
 *   [GezichtsYoga](/wie-doet-wat/luna-westerik/#gezichtsyoga)
 *   [Oerloop](/wie-doet-wat/welmoed-arkenaar/)
 *   [Xtatic Yoga](/wie-doet-wat/ilse-lam-dieters/#xtatic-yoga)

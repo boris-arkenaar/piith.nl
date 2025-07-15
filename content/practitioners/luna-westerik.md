@@ -164,7 +164,7 @@ Elke dinsdagochtend om 10 uur. Bij voldoende belangstelling kan het ook op ander
 Inloop vanaf een kwartier voor aanvang lessen.  
 Geef je op bij Luna, 06-29141718 of [info@piith.nl](mailto:info@piith.nl).
 
-_Een les duurt anderhalf uur inclusief kopje thee en kost €15, een 10-rittenkaart €120.  
+_Een les duurt anderhalf uur inclusief kopje thee en kost per les €10 contant of €12 via een Tikkie.
 Privéles is ook mogelijk, die kost €80, een 3-rittenkaart €210.  
 De rittenkaart is in principe persoonsgebonden en 1 jaar houdbaar, ook inzetbaar bij de vergelijkbare lessen, restitutie van niet gebruikte ritten is niet mogelijk._
 
