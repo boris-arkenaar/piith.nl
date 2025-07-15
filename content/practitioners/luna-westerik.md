@@ -50,7 +50,7 @@ Je krijgt een factuur mee, betaling contant of overmaken. 
 Mochten de kosten een probleem vormen, neem dan contact met mij op om andere opties te bespreken.  
 Annulering tot 24 uur voor aanvang is kosteloos. Binnen die 24 uur kan het door overmacht - denk aan ziekte - soms niet anders. Als je onmiddelijk een nieuwe afspraak maakt op korte termijn, zijn er geen extra kosten aan verbonden. In alle overige gevallen wordt echter 100% in rekening gebracht.
 
-## <a id="shiatsutherapie" class="anchor"></a>Vaccinaties
+### <a id="shiatsutherapie" class="anchor"></a>Vaccinaties
 
 Na elke vaccinatie, welke of waarvoor dan ook, is het verstandig niet eerder dan 3 weken daarna een behandeling of lessen bij mij in te plannen. Dit omdat je na een prik een paar weken kwetsbaarder bent.
 
@@ -75,7 +75,7 @@ Na elke vaccinatie, welke of waarvoor dan ook, is het verstandig niet eerder dan
 
 <br class="clear" />
 
-## <a id="shiatsutherapie" class="anchor"></a>Bijdrage en vergoeding
+### <a id="shiatsutherapie" class="anchor"></a>Bijdrage en vergoeding
 
 Laat de beperkende gedachte 'wordt niet vergoed, dus kan niet' los.  
 De meeste complementair opgeleide heilzame harde werkers (waaronder ik) bieden ruimte aan minder draagkrachtigen om toch een behandeling te krijgen.   
@@ -97,25 +97,13 @@ Meer info op [Shiatsu het Gooi](https://www.shiatsuhetgooi.nl).
 
 ## Via Luna
 
-_Nieuw_:  
-Al tijden lag het te broeden, tijdens de C-situatie werd het geboren, en nu is het moment om naar buiten te komen.
-
-Wat houdt Via Luna in?
-
-*   Shiatsu op afstand
-*   De Lunawalk
-*   Het Lunatikje
-
+<p>
 <figure class="wp-block-image"><img src="https://res.cloudinary.com/piith/image/upload/2020/04/IMG_20191227_093005-1.jpg" alt="bospad" width="746" height="420" class="wp-image-2672"/></figure>
+</p>
 
 ### Shiatsu op afstand
 
 Je kunt ook zeggen: energie op afstand, heling op afstand, bezinning op afstand, schoonmaak op afstand, kortom Luna op afstand.
-
-Drie weken lang heb ik dit gratis aangeboden en het was een groot succes! Gemiddeld deden er dagelijks ruim 12 mensen mee. En evenzoveel mensen hadden er baat bij.
-
-Vanaf nu is er een kleine vergoeding aan verbonden.  
-Lees hieronder verder.
 
 **Shiatsu op afstand, kan dat?**  
 Ja dat kan! Ik heb het vaker gedaan. Iedereen kent het gevoel van in een andere wereld te zijn als je een boek leest, of terugdeinzen van afgrijzen als je iets engs op je beeldscherm ziet. De mind is tot veel in staat. Het vraagt wel enige lenigheid van geest.  
@@ -129,27 +117,12 @@ Je gaat op de afgesproken tijd een half uurtje comfortabel liggen. Buik, rug, zi
 Met een Shiatsu schud ik je op, breng ik de energie aan het stromen en kom jij terug lekker in je vel. Je wordt kalm, vervuld van wie jij bent en wat je te doen staat. De vraag is dus eerder: waarom zou je het niét doen.  
 **En dan?**  
 Na afloop neem je nog even de tijd voor jezelf, je drinkt een glas water of een kop thee en voelt wat het met je doet. Je kunt een loom soort moeheid ervaren, oude pijnen kunnen tijdelijk opspelen, laat het maar gebeuren.  
-**Wanneer?**  
-Elke dag om 8 uur in de ochtend en 8 uur in de avond.  
-Op verzoek andere tijdstippen en je mag een thema vragen.  
-Geef je op en ik neem je mee.  
 **Wat kost dat?**  
-Bijdrage naar eigen keuze of draagkracht, waarbij de richtlijn per persoon is: €5 voor een dag, €25 voor een hele week, €75 voor een hele maand. Meer of minder mag dus ook en ik maak geen onderscheid.  
+Per behandeling op afstand €25.  
 **Wat moet je doen?**  
-Geef de door jou gewenste dag, week of maand door via whatsapp of sms 06-29141718, vermeld je naam of namen (moeder, zus, buurman, vriend mogen ook meedoen) en maak je bijdrage over naar NL64RABO 0155684388 tnv LA Westerik.
-
-### De Lunawalk
-
-Een natuurwandeling met afstand, op afspraak, één à anderhalf uur. Jij samen met Luna.  
-Vergezeld van een goed gesprek, luchtig gesprek of in stilte.  
-Onderweg een zonnegroet, wat oefeningen of even uitrusten op een bankje. Precies zoals jij het graag wilt.  
-Bijdrage ook hier weer naar eigen keuze of draagkracht waarbij de richtlijn is €25 per wandeling.  
-Luna is het makkelijkst bereikbaar via Whatsapp of Signal 06-29141718, maar bellen of mailen kan ook: [info@piith.nl](mailto:info@piith.nl).
-
-### Het Lunatikje
-
-De dagelijkse update, quote, intentie, gedachte.  
-Straks kan je je hierop abonneren. Dit is nog in ontwikkeling.
+Geef het door jou gewenste moment op via WhatsApp, Signal of sms (06-29141718) en geef je naam door.  
+Mailen kan ook: [info@piith.nl](mailto:info@piith.nl).  
+Je krijgt dan van mij een Tikkie.
 
 ## <a id="do-in" class="anchor"></a>Do-in
 
