@@ -19,6 +19,7 @@ showInLeftMenu: true
 *   [Adem coaching](/wie-doet-wat/esteriek-de-heij/#adem-coaching)
 *   [Personal Yoga](/wie-doet-wat/esteriek-de-heij/#personal)
 *   [Handanalyse/Gelaatkunde](/wie-doet-wat/luna-westerik/#handanalyse)
+*   [Reiki](/wie-doet-wat/joosje-hoogstraate)
 *   Coaching ouder, kind en baby
 
 ![](https://res.cloudinary.com/piith/image/upload/2019/04/Shiatsu_het_Gooi_3251_13.jpg#dimensions=medium-landscape&align=right)
@@ -31,5 +32,4 @@ showInLeftMenu: true
 <h2 class="what-header">Workshops</h2>
 
 *   [GezichtsYoga](/wie-doet-wat/luna-westerik/#gezichtsyoga)
-*   Reiki
 *   [Zielenkaarten](/wie-doet-wat/luna-westerik/#zielenkaarten)

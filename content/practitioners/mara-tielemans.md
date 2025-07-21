@@ -1,6 +1,7 @@
 ---
 activities:
   - Fysiotherapie
+  - Mindful met je baby
 name: Mara Tielemans
 companyLogo: 2024/10/mara-tielemans.jpg
 showInMenu: true
