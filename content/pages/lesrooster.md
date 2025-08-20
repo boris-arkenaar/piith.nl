@@ -36,12 +36,12 @@ menuWeight: 100
 </tr>
 <tr>
 <td><time>18:45</time> - <time>20:00</time></td>
-<td><a href="/wie-doet-wat/ilse-lam-dieters">Yin Flow&Relax Yoga</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Yin Flow &amp; Relax Yoga</a></td>
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
 <td><time>20:15</time> - <time>21:45</time></td>
-<td><a href="/wie-doet-wat/ilse-lam-dieters">Yang Flow&Relax Yoga</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Yang Flow &amp; Relax Yoga</a></td>
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
@@ -72,7 +72,7 @@ menuWeight: 100
 <tr>
 <td class="day" rowspan="2">zaterdag</td>
 <td><time datetime="09:15">&nbsp;9:15</time> - <time>10:45</time></td>
-<td><a href="/wie-doet-wat/ilse-lam-dieters">Yang Flow&Relax Yoga</a></td>
+<td><a href="/wie-doet-wat/ilse-lam-dieters">Yang Flow &amp; Relax Yoga</a></td>
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
 </tr>
 <tr>
