@@ -1,6 +1,6 @@
 ---
 activities:
-  - Shinen Qigong
+  - Zhineng Qigong
 name: Ineke Boeijen
 company: Qi flow met Ineke
 companyLogo: 2025/08/Logo.doc.png
@@ -18,7 +18,7 @@ Na het afronden van de docentenopleiding Zhineng Qigong level 1 en level 2 ben i
 
 Zhineng Qigong werkt diepgaand, het versterkt je lichaam, brengt rust in je hoofd en opent je hart. De zachte meditatieve bewegingen helpen je om de spanningen los te laten en je energie weer te laten stromen. Iedereen kan ermee aan de slag, ongeacht leeftijd of ervaring. De bedoeling is dat je ontspant en plezier beleefd, eigenlijk zoals we allemaal in het leven zouden willen staan. 
 
-## <a id="shinen-qigong" class="anchor"></a>Zhineng Qigong bewegingslessen 
+## <a id="zhineng-qigong" class="anchor"></a>Zhineng Qigong bewegingslessen 
 
 *Introductie les van € 5,00: maandag 8 september van 10:00-11:00 uur*\
 *Start lessen: maandag 15 september 2025*

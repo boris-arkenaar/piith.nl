@@ -11,7 +11,7 @@ showInLeftMenu: true
 *   [GezichtsYoga](/wie-doet-wat/luna-westerik/#gezichtsyoga)
 *   [Oerloop](/wie-doet-wat/welmoed-arkenaar/)
 *   [Xtatic Yoga](/wie-doet-wat/ilse-lam-dieters/#xtatic-yoga)
-*   [Shinen Qigong](/wie-doet-wat/ineke-boeijen/#shinen-qigong)
+*   [Zhineng Qigong](/wie-doet-wat/ineke-boeijen/#zhineng-qigong)
 
 <h2 class="what-header">Therapie – coaching</h2>
 
