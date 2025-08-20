@@ -18,10 +18,16 @@ menuWeight: 100
 </thead>
 <tbody>
 <tr>
-<td class="day">maandag</td>
-<td></td>
-<td></td>
-<td></td>
+<td class="day" rowspan="2">maandag</td>
+<td><time datetime="09:00">&nbsp;9:00</time> - <time>10:15</time></td>
+<td><a href="/wie-doet-wat/ineke-boeijen#shinen-qigong">Shinen Qigong</a></td>
+<td><a href="/wie-doet-wat/ineke-boeijen">Ineke Boeijen</a></td>
+</tr>
+<tr>
+<td><time>11:00</time> - <time>12:15</time></td>
+<td><a href="/wie-doet-wat/ineke-boeijen#shinen-qigong">Shinen Qigong</a></td>
+<td><a href="/wie-doet-wat/ineke-boeijen">Ineke Boeijen</a></td>
+</tr>
 <tr>
 <td class="day" rowspan="3">dinsdag</td>
 <td><time>10:00</time> - <time>11:30</time></td>
