@@ -11,16 +11,22 @@ showInMenu: true
 menuWeight: 1800
 ---
 
-Sinds 2024 ben ik verbonden aan Piith, waar ik mensen begeleid in het herinneren van wie ze in de kern zijn.\
-Ik geloof in de kracht van voelen, van vertragen, van écht aanwezig zijn. In een wereld die veel van je vraagt, nodig ik je uit om stil te worden en opnieuw verbinding te maken met je lichaam, je energie en je innerlijke wijsheid.
+*A space to release, connect & rewire. Thuiskomen ~ in al je lagen.*
 
-Mijn manier van werken nodigt uit tot ontspanning, heling en activatie.\
+Sinds 2024 ben ik verbonden aan Piith, waar ik mensen begeleid om opnieuw te verbinden en te herinneren wie ze in de kern zijn.
+Ik geloof in de kracht van voelen, vertragen en gewoon even helemaal aanwezig zijn.
+In een wereld die zoveel van je vraagt, nodig ik je uit om stil te staan en weer contact te maken met je lichaam, je energie en je innerlijke wijsheid.
+
 ![Ray-Lynn Vrieze](https://res.cloudinary.com/piith/image/upload/v1755690132/2025/08/IMG_20241229_184209_795.webp#dimensions=medium-portrait&align=right)
-**Het helpt je** spanning los te laten, je zenuwstelsel tot rust te brengen en weer te vertrouwen op je eigen innerlijke kompas. Geen quick fix, maar een liefdevolle bedding voor wat er in beweging wil komen.
+In mijn zachte, maar krachtige sessies — 1-op-1 of in groep — kun je ervaren wat er in jou leeft.
+Laat je levensenergie stromen en herinner je dat alles al in jou aanwezig is.
+Ik werk met energie — zoals Kundalini — het lichaam, het hart en de ziel, zodat je meer innerlijke rust, verbinding en vrijheid kunt ervaren.
 
-In mijn één-op-één sessies en groepssessies werk ik met energie die o.a. het zelfherstellend vermogen van je lichaam ondersteunt. Denk aan ademhaling, lichaamsgerichte oefeningen, muziek, zachte aanraking en intuïtieve afstemming op jouw systeem. Elke sessie is afgestemd op wat er op dat moment nodig is.
+Mijn werkwijze is intuïtief, helder en liefdevol, altijd met aandacht voor het versterken van jouw eigen kracht en innerlijke wijsheid.
+Mijn sessies nodigen uit tot ontspanning, heling en activatie: ze helpen spanning los te laten, je zenuwstelsel tot rust te brengen en je weer te verbinden met je eigen innerlijke kompas.
 
-**Of je nu toe bent aan rust, helderheid, verwerking of juist verdieping — je bent welkom.**
+Tijdens de sessies combineer ik ademhaling, lichaamsgerichte oefeningen, muziek, zachte aanraking en intuïtieve afstemming op jouw systeem.
+Elke sessie is afgestemd op wat jij nu nodig hebt — of je nu verlangt naar meer balans, persoonlijke groei, of gewoon een moment om helemaal tot jezelf te komen.
 
-Je vindt me op vrijdagen bij Piith voor individuele sessies en groepssessies.\
-Ben je benieuwd of dit bij je past? Kijk op [ray-lynnvrieze.nl](https://ray-lynnvrieze.nl) of boek een vrijblijvende kennismaking.
+Op vrijdagen ben ik bij Piith voor individuele sessies en groepssessies.
+Wil je ervaren of dit bij je past? Kijk op [ray-lynnvrieze.nl](https://ray-lynnvrieze.nl) of plan een vrijblijvende kennismaking.
