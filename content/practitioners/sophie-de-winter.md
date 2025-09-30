@@ -4,39 +4,30 @@ activities:
   - Aurareading en -healing
 company: Sophie de Winter
 companyLink: https://sophiedewinter.nl/
-companyLogo: 2024/02/Profielfoto23_vriekant.jpg
+companyLogo: 2025/09/Mandala_logo.png
 name: Sophie de Winter
 showInMenu: true
 menuWeight: 650
 ---
 
+## Klankontspanning in Piith
 
+Liggend op een matje neemt Sophie je mee op een reis van klanken. Onder andere haar drum, stem en klankschalen nodigen je uit diep te ontspannen en tot jezelf te komen. De trillingen van de instrumenten creëren een ontspannende sfeer in de ruimte en brengen balans in je lichaam.
 
-## Wekelijkse meditatieavond bij Piith
+Je wordt eerst in een ontspannende meditatie begeleid waarin je een intentie voor jezelf kunt zetten en we sluiten in alle rust samen weer af met een kop thee.
 
-Op maandagavond de week samen ontspannen beginnen.  
-Voor iedereen die op zoek is naar een wekelijks rustmoment, voor mensen met ervaring met meditatie en voor wie het nieuw is. De avond bestaat uit begeleide meditaties, stiltemomenten en klankontspanning.  
-Er is aandacht voor:
+Locatie is de grote ruimte in Piith, Laarderweg 65 in Bussum
 
-- Gronden om spanning los te laten,
-- Energie laten stromen, waardoor je je meer bewust wordt van je lichaam
-- Verbinden met je hartsenergie voor meer innerlijke rust
-- Ademhaling verdiepen voor meer ontspanning en gevoel van ruimte
-
-Op maandag bij Piith, Laarderweg 65 in Bussum. Van 20.30 tot 21.30 uur.  
-€12,50 per avond en €110 voor een 10-rittenkaart  
-[Aanmelden voor een meditatieavond](https://sophiedewinter.nl/#get-in-touch)
+Voor meer informatie en data zie sophiedewinter.nl
 
 ## Over Sophie
 
 ![Sophie de Winter](https://res.cloudinary.com/piith/image/upload/v1707213462/2024/02/Profielfoto23_vriekant.jpg#dimensions=medium-portrait&align=right)
-Naast meditatiebegeleider werk ik ook als aurahealer en reader. In mijn healing en reading sessies maak ik gebruik van aura- en chakrahealing, klankhealing en gebruik ik technieken uit het sjamanisme om je energie weer in balans te brengen. Waar spanning vast zit komt weer stroming en dit werkt positief door in je lichaam en in je emoties en gedachtes.  
-Als je intensiever wil werken aan iets waar je tegenaan loopt in je leven, dan kan je in een verdiepend traject ervaren hoe je in contact komt met je eigen wijsheid en als je wil ook met je eigen gidsen voor dagelijkse steun.
 
-In de meditatieavonden in Bussum doen we ook energetische oefeningen. Je ervaart dan hoe je bijvoorbeeld kunt gronden om spanning los te laten op een manier die voor jou werkt. En hoe je je verbindt met de energie van je hart om jezelf gerust te stellen en dieper te ontspannen.
+Naast de klankontspanningen gebruik ik ook klanken in mijn healing en reading sessies om je energie weer in balans te brengen. Waar spanning vast zit komt weer stroming en dit werkt positief door in je lichaam, je emoties en je gedachtes.
 
-Ik ben inmiddels ruim 20 jaar bezig met energiewerk, healing en persoonlijke ontwikkeling en ik geloof dat we alle wijsheid al bij ons dragen die we nodig hebben om ons pad te volgen.
+In de intuïtieve coaching trajecten werken we aan een bepaald thema dat nu bij je speelt. Daarin kunnen we dieper inzicht krijgen in de oorzaak van spanningen of patronen en ook wat je kunt doen om hier heling in te brengen.
 
-In mijn werk breng ik je graag dichter bij die innerlijke wijsheid.
+Ik geloof dat we alle wijsheid die we nodig hebben om ons pad te volgen al bij ons dragen. In mijn werk breng ik je graag meer in contact met die innerlijke wijsheid via meditatie, healing en reading.
 
 Voor meer informatie en voor het maken van een afspraak zie [sophiedewinter.nl](https://sophiedewinter.nl).
