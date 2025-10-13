@@ -10,9 +10,6 @@ menuWeight: 1900
 
 ## <a id="zhineng-qigong" class="anchor"></a>Zhineng Qigong bewegingslessen 
 
-*Introductie les van € 5,00: maandag 8 september van 10:00-11:00 uur*\
-*Start lessen: maandag 15 september 2025*
-
 ### Wat is Zhineng Qigong?
 
 Een Chinese bewegingsleer die ook wel als ‘meditatie in beweging’ wordt beschouwd.

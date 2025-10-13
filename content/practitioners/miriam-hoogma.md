@@ -1,10 +1,13 @@
 ---
 activities:
-  - Holistisch lesgeven
+  - Opleiding Holistisch Lesgeven
+  - Holistische therapie
+  - Shamanic healing
+  - HSP coaching
 name: Miriam Hoogma
 company: Holistisch Lesgeven
 companyLink: https://holistischlesgeven.com
-companyLogo: 2025/09/1da2dafb-e7c1-4064-b3c5-517a90eff5a6.jpg
+companyLogo: 2025/10/Screenshot_2025-10-13_at_11.29.12.png
 showInMenu: true
 menuWeight: 1900
 ---
@@ -15,7 +18,7 @@ Welkom bij de eerste en enige opleiding in Nederland die zich richt op hoogsensi
 
 ### Waarom deze opleiding?
 
-![Miriam Hoogma](https://res.cloudinary.com/piith/image/upload/v1759239351/2025/09/PHOTO-2025-09-20-13-26-04.jpg#dimensions=medium-landscape&align=right)
+![Miriam Hoogma](https://res.cloudinary.com/piith/image/upload/v1759239352/2025/09/b9a94315-e59e-44e1-bd88-2c02849749aa_3.jpg#dimensions=medium-landscape&align=right)
 
 Veel kinderen van nu zijn sensitief en ervaren het onderwijs als te rationeel en prikkelend.\
 De opleiding **Holistisch Lesgeven** ondersteunt leerkrachten, begeleiders en andere onderwijsprofessionals om deze kinderen écht te begrijpen en te begeleiden.
@@ -45,7 +48,7 @@ Deze opleiding is bedoeld voor sensitieve leerkrachten, intern begeleiders, Pabo
 
 ### Over de docent
 
-![Miriam Hoogma](https://res.cloudinary.com/piith/image/upload/v1759239352/2025/09/b9a94315-e59e-44e1-bd88-2c02849749aa_3.jpg#dimensions=medium-landscape&align=right)
+![Miriam Hoogma](https://res.cloudinary.com/piith/image/upload/v1759239351/2025/09/PHOTO-2025-09-20-13-26-04.jpg#dimensions=medium-landscape&align=right)
 
 De opleiding wordt gegeven door drs. **Miriam Hoogma** - holistisch leerkracht, Pabo-docent, onderwijsadviseur, auteur (Klassenmanagement, uitg. Noordhoff), holistisch therapeut, shamanic healer én moeder van drie hoogsensitieve kinderen. Met meer dan 25 jaar ervaring brengt zij wetenschap, onderwijspraktijk en intuïtieve wijsheid samen.
 
@@ -73,7 +76,7 @@ Of maak een afspraak voor een kennismakingsgesprek met Miriam, stuur een appje n
 
 ## Praktijk van MirIAM – SynergieAdvies HSP
 
-Miriam heeft daarnaast een eigen praktijk als holistisch therapeut, healer in Piith. Zij heeft 30 jaar ervaring in werken met energie en is gespecialiseerd in regressietherapie, shamanic healing, soundtherapy, innerlijk kindwerk-sessies, trauma release somatic work, Emotional Freedom Techniques, systemisch werk en relatietherapie. 
+Miriam heeft naast de opleiding Holistisch Lesgeven een eigen praktijk als holistisch therapeut, healer in Piith. Zij heeft 30 jaar ervaring in werken met energie en is gespecialiseerd in regressietherapie, shamanic healing, soundtherapy, innerlijk kindwerk-sessies, trauma release somatic work, Emotional Freedom Techniques, systemisch werk en relatietherapie.
 
 ### Waar helpt holistische therapie & healing bij?
 

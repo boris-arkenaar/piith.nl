@@ -2,6 +2,7 @@
 activities:
   - Meditatie
   - Aurareading en -healing
+  - Klankontspanning
 company: Sophie de Winter
 companyLink: https://sophiedewinter.nl/
 companyLogo: 2025/09/Mandala_logo.png
@@ -18,7 +19,7 @@ Je wordt eerst in een ontspannende meditatie begeleid waarin je een intentie voo
 
 Locatie is de grote ruimte in Piith, Laarderweg 65 in Bussum
 
-Voor meer informatie en data zie sophiedewinter.nl
+Voor meer informatie en data zie [sophiedewinter.nl](https://sophiedewinter.nl).
 
 ## Over Sophie
 

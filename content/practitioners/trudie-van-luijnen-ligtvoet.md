@@ -1,44 +1,23 @@
 ---
 activities:
-  - Yang-Yin Yoga
   - Yin Yoga
-  - Dru Yoga
 company: De Paarse Paraplu
-companyLink: https://www.depaarseparaplu.nl/
 companyLogo: 2021/01/Screenshot-2021-01-15-at-14.58.36.png
 name: Trudie van Luijnen-Ligtvoet
 showInMenu: true
 menuWeight: 400
 ---
 
-Ik heb lang in de gezondheidszorg gewerkt, waarvan 20 jaar als verpleegkundige.   
-Naast yogales geven ben ik in het dagelijks leven onderwijskundig adviseur bij Aumc.
-
-Wil je meer over mij en de paarse paraplu weten? Bekijk dan mijn website: [De Paarse Paraplu](https://www.depaarseparaplu.nl)  
-
-## Yoga
+Ik heb lang in de gezondheidszorg gewerkt, waarvan 20 jaar als verpleegkundige. 
+Naast Zwangerschapsyoga en yin yogalessen geven ben ik in het dagelijks leven onderwijskundig adviseur bij Amsterdam UMC. 
 
 <figure class="alignright"><img src="https://res.cloudinary.com/piith/image/upload/2022/10/trudie.jpg" alt="" class="wp-image-2997"/></figure>
 
-Yoga biedt oefeningen om je evenwicht te herstellen, en leert je te luisteren naar je eigen lichaam.   
-Yoga gaat over bewustwording, zien en voelen wie je werkelijk bent.
+Yin yoga is een rustige en meditatieve vorm van yoga waarbij houdingen langere tijd – meestal drie tot vijf minuten – worden vastgehouden. Door het lang aanhouden van de poses worden bindweefsel, gewrichten en fascia op een zachte manier gestimuleerd en verdiept de flexibiliteit. De focus ligt niet op spierkracht of dynamiek, maar op ontspanning, verstilling en het loslaten van spanning.\
+(Yin) yoga is voor iedereen! 
 
-In de Yin en Yang-Yin yoga (in die volgorde) lessen die ik geef is er aandacht voor ademhaling, spierkracht maar ook voor ontspanning en verstilling.
-
-### Dru yoga
-
-Dru Yoga is anders dan andere vormen van yoga, omdat het sequenties, houdingen en stretches ontwikkeld heeft met veel aandacht voor kernstabiliteit en de rug en de krachtige energie van het hart.  
-Energetisch zijn er In de stroom van de bewegingen stiltepunten, waarin die energie krachtig voelbaar kan zijn. Je ontwikkelt een dieper bewustzijn van de stilte in jezelf en het energieveld om je heen
-
-Bij mijn dru yoga lessen beweeg je rustig en met aandacht. Iedereen doet de les mee op zijn/haar niveau.
-
-### Zwangerschapsyoga
-
-Bij al mijn lessen kun je rekenen op persoonlijke aandacht in een ontspannen sfeer.
-
-Ik geef aan maximaal **6** deelnemers les. 
-
-Tarieven: 10 strippenkaart €120, 3 maanden geldig.  
-Een losse les is €15 en een proefles gratis.
+Iedere maandagavond geef ik twee yin yogalessen:\
+19:00-20:15\
+20:30-21:45
 
 <figure class="aligncenter"><img src="https://res.cloudinary.com/piith/image/upload/2019/03/trudie.jpg" alt="" class="wp-image-2343"/></figure>

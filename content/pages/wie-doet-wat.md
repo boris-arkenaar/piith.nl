@@ -12,6 +12,7 @@ showInLeftMenu: true
 *   [Oerloop](/wie-doet-wat/welmoed-arkenaar/)
 *   [Xtatic Yoga](/wie-doet-wat/ilse-lam-dieters/#xtatic-yoga)
 *   [Zhineng Qigong](/wie-doet-wat/ineke-boeijen/#zhineng-qigong)
+*   [Opleiding Holistisch Lesgeven](/wie-doet-wat/miriam-hoogma/#opleiding-holistisch-lesgeven)
 
 <h2 class="what-header">Therapie – coaching</h2>
 
@@ -21,6 +22,7 @@ showInLeftMenu: true
 *   [Personal Yoga](/wie-doet-wat/esteriek-de-heij/#personal)
 *   [Handanalyse/Gelaatkunde](/wie-doet-wat/luna-westerik/#handanalyse)
 *   [Reiki](/wie-doet-wat/joosje-hoogstraate)
+*   [Holistische therapie/healing/HSP coaching](/wie-doet-wat/miriam-hoogma/#holistische-therapie-healing-hsp-coaching)
 *   Coaching ouder, kind en baby
 
 ![](https://res.cloudinary.com/piith/image/upload/2019/04/Shiatsu_het_Gooi_3251_13.jpg#dimensions=medium-landscape&align=right)

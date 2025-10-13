@@ -21,12 +21,12 @@ menuWeight: 100
 <td class="day" rowspan="4">maandag</td>
 <td><time datetime="09:00">&nbsp;9:00</time> - <time>10:15</time></td>
 <td><a href="/wie-doet-wat/ineke-boeijen#zhineng-qigong">Zhineng Qigong</a></td>
-<td><a href="/wie-doet-wat/ineke-boeijen">Ineke Boeijen</a></td>
+<td><a href="/wie-doet-wat/ineke-boeijen">Ineke</a></td>
 </tr>
 <tr>
 <td><time>11:00</time> - <time>12:15</time></td>
 <td><a href="/wie-doet-wat/ineke-boeijen#zhineng-qigong">Zhineng Qigong</a></td>
-<td><a href="/wie-doet-wat/ineke-boeijen">Ineke Boeijen</a></td>
+<td><a href="/wie-doet-wat/ineke-boeijen">Ineke</a></td>
 </tr>
 <tr>
 <td><time>19:00</time> - <time>20:15</time></td>
@@ -34,7 +34,7 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/trudie-van-luijnen-ligtvoet/">Trudie</a></td>
 </tr>
 <tr>
-<td><time>20:30</time> - <time>21:30</time></td>
+<td><time>20:30</time> - <time>21:45</time></td>
 <td><a href="/wie-doet-wat/trudie-van-luijnen-ligtvoet/">Yin Yoga</a></td>
 <td><a href="/wie-doet-wat/trudie-van-luijnen-ligtvoet/">Trudie</a></td>
 </tr>
