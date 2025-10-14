@@ -16,7 +16,7 @@ menuWeight: 1900
 
 Welkom bij de eerste en enige opleiding in Nederland die zich richt op hoogsensitiviteit en holistisch onderwijs. Deze tweejarige modulaire opleiding is speciaal ontwikkeld (sinds 2020) voor sensitieve leerkrachten en onderwijsprofessionals die kinderen écht in hun volle potentieel willen begeleiden. We zijn verhuisd van Almere naar Bussum.
 
-### Waarom deze opleiding?
+### <a id="waarom-deze-opleiding" class="anchor"></a>Waarom deze opleiding?
 
 ![Miriam Hoogma](https://res.cloudinary.com/piith/image/upload/v1759239352/2025/09/b9a94315-e59e-44e1-bd88-2c02849749aa_3.jpg#dimensions=medium-landscape&align=right)
 
@@ -74,7 +74,7 @@ __✨ Word de gids die hoogsensitieve kinderen verdienen en ontdek hoe jij vanui
 
 Of maak een afspraak voor een kennismakingsgesprek met Miriam, stuur een appje naar: [06 - 211 555 30](tel:+31621155530) of mail naar: [info@holistischlesgeven.com](mailto:info@holistischlesgeven.com).
 
-## Praktijk van MirIAM – SynergieAdvies HSP
+## <a id="synergieadvies" class="anchor"></a>Praktijk van MirIAM – SynergieAdvies HSP
 
 Miriam heeft naast de opleiding Holistisch Lesgeven een eigen praktijk als holistisch therapeut, healer in Piith. Zij heeft 30 jaar ervaring in werken met energie en is gespecialiseerd in regressietherapie, shamanic healing, soundtherapy, innerlijk kindwerk-sessies, trauma release somatic work, Emotional Freedom Techniques, systemisch werk en relatietherapie.
 

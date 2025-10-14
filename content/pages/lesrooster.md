@@ -20,12 +20,12 @@ menuWeight: 100
 <tr>
 <td class="day" rowspan="4">maandag</td>
 <td><time datetime="09:00">&nbsp;9:00</time> - <time>10:15</time></td>
-<td><a href="/wie-doet-wat/ineke-boeijen#zhineng-qigong">Zhineng Qigong</a></td>
+<td><a href="/wie-doet-wat/ineke-boeijen#user-content-zhineng-qigong">Zhineng Qigong</a></td>
 <td><a href="/wie-doet-wat/ineke-boeijen">Ineke</a></td>
 </tr>
 <tr>
 <td><time>11:00</time> - <time>12:15</time></td>
-<td><a href="/wie-doet-wat/ineke-boeijen#zhineng-qigong">Zhineng Qigong</a></td>
+<td><a href="/wie-doet-wat/ineke-boeijen#user-content-zhineng-qigong">Zhineng Qigong</a></td>
 <td><a href="/wie-doet-wat/ineke-boeijen">Ineke</a></td>
 </tr>
 <tr>
@@ -41,7 +41,7 @@ menuWeight: 100
 <tr>
 <td class="day" rowspan="3">dinsdag</td>
 <td><time>10:00</time> - <time>11:30</time></td>
-<td><a href="/wie-doet-wat/luna-westerik/#do-in">Do-in Yoga</a></td>
+<td><a href="/wie-doet-wat/luna-westerik/#user-content-do-in">Do-in Yoga</a></td>
 <td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
 </tr>
 <tr>
@@ -69,13 +69,13 @@ menuWeight: 100
 <tr>
 <td class="day">donderdag</td>
 <td><time>19:30</time> - <time>20:45</time></td>
-<td><a href="/wie-doet-wat/esteriek-de-heij/#hatha-yoga">Hatha Yoga Flow</a></td>
+<td><a href="/wie-doet-wat/esteriek-de-heij/#user-content-hatha-yoga">Hatha Yoga Flow</a></td>
 <td><a href="/wie-doet-wat/esteriek-de-heij/">Esteriek</a></td>
 </tr>
 <tr>
 <td class="day">vrijdag</td>
 <td><time>16:30</time> - <time>17:45</time></td>
-<td><a href="/wie-doet-wat/esteriek-de-heij/#relax-yoga">Relax Yoga</a></td>
+<td><a href="/wie-doet-wat/esteriek-de-heij/#user-content-relax-yoga">Relax Yoga</a></td>
 <td><a href="/wie-doet-wat/esteriek-de-heij/">Esteriek</a></td>
 </tr>
 <tr>
