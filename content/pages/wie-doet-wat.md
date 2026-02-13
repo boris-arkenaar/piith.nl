@@ -13,6 +13,7 @@ showInLeftMenu: true
 *   [Xtatic Yoga](/wie-doet-wat/ilse-lam-dieters/#user-content-xtatic-yoga)
 *   [Zhineng Qigong](/wie-doet-wat/ineke-boeijen/#user-content-zhineng-qigong)
 *   [Opleiding Holistisch Lesgeven](/wie-doet-wat/miriam-hoogma)
+*   [Pre/Postnatal & Vinyasa yoga](/wie-doet-wat/nia-phillips)
 
 <h2 class="what-header">Therapie – coaching</h2>
 
@@ -36,3 +37,5 @@ showInLeftMenu: true
 
 *   [GezichtsYoga](/wie-doet-wat/luna-westerik/#user-content-gezichtsyoga)
 *   [Zielenkaarten](/wie-doet-wat/luna-westerik/#user-content-zielenkaarten)
+*   [Grief and Emotional Release Retreats](/wie-doet-wat/nia-phillips)
+*   [Birth Preparation Workshops](/wie-doet-wat/nia-phillips)
