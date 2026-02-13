@@ -12,11 +12,4 @@ Je wordt in een ontspannende meditatie begeleid, kunt een helende intentie voor 
 
 Sophie gebruikt ook in haar healingwerk de kracht van klanken. De trillingen van de instrumenten brengen balans in je lichaam en een ontspannende sfeer in de ruimte. Voor meer informatie zie [www.sophiedewinter.nl](https://www.sophiedewinter.nl)
 
-## Voel je welkom op de volgende data
-
-- zondag 17 november 16.00-17.30 uur
-- vrijdag 13 december 19.30-21.00 uur
-- zondag 19 januari 10.30-12.00 uur
-- zondag 16 februari 10.30-12.00 uur
-
 Inloop is vanaf 10 minuten van te voren. Bijdrage is €17,50 per persoon en een plek reserveren kan per mail aan [contact@sophiedewinter.nl](mailto:contact@sophiedewinter.nl)
