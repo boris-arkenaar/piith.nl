@@ -5,6 +5,8 @@ activities:
   - Birth Preparation Workshops
   - Pre/Postnatal & Vinyasa yoga
   - Classes are in English
+company: Nia Phillips
+companyLink: https://niaphillips.com
 companyLogo: 2026/02/IMG_4059.jpg
 name: Nia Phillips
 showInMenu: true
@@ -14,8 +16,6 @@ menuWeight: 1000
 ## Release Retreats
 
 These intimate retreats offer a gentle space for emotional release, reflection, and reconnection. Through guided stillness, breath, yoga, silence, and simple rituals, women are invited to meet what is present with compassion and care. There is no need to fix or explain — each retreat is an invitation to slow down, soften, and allow what is ready to move to unfold in its own time. ****
-
-**Next retreat: 15.02.26**
 
 ## Private Birth Preparation Workshops 
 
@@ -43,7 +43,6 @@ Pre/postnatal yoga and Vinyasa yoga (1 class): €15
 
 ### Timetable
 
-15.02.26 - [Rituals for Release Retreat](https://hipsy.nl/event/176179-womens-gathering-rituals-for-release-retreat)
 15.03.26 - Women’s Yoga Retreat
 
 ### Would you like to get in touch?
