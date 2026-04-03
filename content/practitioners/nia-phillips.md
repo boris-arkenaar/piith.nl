@@ -7,7 +7,7 @@ activities:
   - Classes are in English
 company: Nia Phillips
 companyLink: https://niaphillips.com
-companyLogo: 2026/02/IMG_4059.jpg
+companyLogo: 2026/03/Piith-website-tree-on-green_1.png
 name: Nia Phillips
 showInMenu: true
 menuWeight: 1000
