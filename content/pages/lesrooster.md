@@ -40,7 +40,7 @@ menuWeight: 100
 </tr>
 <tr>
 <td class="day" rowspan="3">dinsdag</td>
-<td><time>10:00</time> - <time>11:30</time></td>
+<td><time datetime="09:30">&nbsp;9:30</time> - <time>11:00</time></td>
 <td><a href="/wie-doet-wat/luna-westerik/#user-content-do-in">Do-in Yoga</a></td>
 <td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
 </tr>

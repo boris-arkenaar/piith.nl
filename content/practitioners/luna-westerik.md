@@ -133,7 +133,7 @@ Je krijgt dan van mij een Tikkie.
 
 Doe-het-zelf-shiatsu, een Oosterse bewegingsleer, Chinese Yoga, Yin-Yang Yoga. Met spelenderwijs wat uitleg over de vijf elementen.  
 Leuk, prettig, makkelijk en met een kleine groep. Het gaat om jouw grenzen dus iedereen kan meedoen.  
-Elke dinsdagochtend om 10 uur. Bij voldoende belangstelling kan het ook op andere momenten.  
+Elke dinsdagochtend om 9.30 uur. Bij voldoende belangstelling kan het ook op andere momenten.  
 Inloop vanaf een kwartier voor aanvang lessen.  
 Geef je op bij Luna, 06-29141718 of [info@piith.nl](mailto:info@piith.nl).
 
