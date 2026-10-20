@@ -34,12 +34,7 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
 </tr>
 <tr>
-<td class="day" rowspan="3">dinsdag</td>
-<td><time datetime="09:30">&nbsp;9:30</time> - <time>11:00</time></td>
-<td><a href="/wie-doet-wat/luna-westerik/#user-content-do-in">Do-in Yoga</a></td>
-<td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
-</tr>
-<tr>
+<td class="day" rowspan="2">dinsdag</td>
 <td><time>18:45</time> - <time>20:00</time></td>
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Yin Flow &amp; Relax Yoga</a></td>
 <td><a href="/wie-doet-wat/ilse-lam-dieters">Ilse</a></td>
@@ -68,12 +63,16 @@ menuWeight: 100
 <td><a href="/wie-doet-wat/esteriek-de-heij/">Esteriek</a></td>
 </tr>
 <tr>
-<td class="day">vrijdag</td>
+<td class="day" rowspan="2">vrijdag</td>
+<td><time>10:00</time> - <time>11:30</time></td>
+<td><a href="/wie-doet-wat/luna-westerik/#user-content-do-in">Do-in Yoga</a></td>
+<td><a href="/wie-doet-wat/luna-westerik/">Luna</a></td>
+</tr>
+<tr>
 <td><time>16:30</time> - <time>17:45</time></td>
 <td><a href="/wie-doet-wat/esteriek-de-heij/#user-content-relax-yoga">Relax Yoga</a></td>
 <td><a href="/wie-doet-wat/esteriek-de-heij/">Esteriek</a></td>
 </tr>
-<tr>
 <tr>
 <td class="day" rowspan="2">zaterdag</td>
 <td><time datetime="09:15">&nbsp;9:15</time> - <time>10:45</time></td>
